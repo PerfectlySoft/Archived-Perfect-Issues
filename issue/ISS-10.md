@@ -30,5 +30,5 @@ Resolved|
 
 Id|Name
 ------|------------
-10000|[test-results.txt](attachment/10000/test-results.txt)
+10000|[test-results.txt](../attachment/10000/test-results.txt)
 
