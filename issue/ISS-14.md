@@ -1,6 +1,6 @@
 # [ISS-14] MongoDB Connector - add row parse functions
 
-[XML Source](./xml/ISS-14.xml)
+[XML Source](../xml/ISS-14.xml)
 <p><p>Add missing functions to parse the row results as reported July 21</p></p>
 
 

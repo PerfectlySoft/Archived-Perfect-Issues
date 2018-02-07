@@ -1,6 +1,6 @@
 # [ISS-66] Getting started error: No such module PerfectLib
 
-[XML Source](./xml/ISS-66.xml)
+[XML Source](../xml/ISS-66.xml)
 <p><p>I am trying to get started with Perfect and just cloned the repository.  </p>
 
 <p>Opened up 'Authenticator' and tried to build the Authenticator Server.  Got an error (No such module PerfectLib).  </p>

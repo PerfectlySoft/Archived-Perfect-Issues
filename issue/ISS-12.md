@@ -1,6 +1,6 @@
 # [ISS-12] Perfect-FastCGI build fail - ubuntu
 
-[XML Source](./xml/ISS-12.xml)
+[XML Source](../xml/ISS-12.xml)
 <p><p>CI log (relevant portion)</p>
 
 

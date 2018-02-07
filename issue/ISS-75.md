@@ -1,6 +1,6 @@
 # [ISS-75] no umbrella header
 
-[XML Source](./xml/ISS-75.xml)
+[XML Source](../xml/ISS-75.xml)
 <p><p><b>Great project !</b></p>
 
 <p>But I have some question..  <br/>

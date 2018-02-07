@@ -1,6 +1,6 @@
 # [ISS-41] Modified the design of the Perfect HTTP App
 
-[XML Source](./xml/ISS-41.xml)
+[XML Source](../xml/ISS-41.xml)
 <p><p>The design of the Perfect HTTP App now better match with the Yosemite / El Capitan inteface</p></p>
 
 

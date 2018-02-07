@@ -1,6 +1,6 @@
 # [ISS-20] MySQL.Results objects do not handle NULL values in result sets
 
-[XML Source](./xml/ISS-20.xml)
+[XML Source](../xml/ISS-20.xml)
 <p><p>If a result set (class <tt>Result</tt>) includes a NULL value, then the <tt>Element</tt> (aka <tt>String</tt> array) returned by <tt>MySQL.storeResults()</tt> does not include that value. For example if a result set has three fields, then each row in the result set should be a <tt>String</tt> array with three items. Instead, any row with at least one NULL value will be a <tt>String</tt> array with less than three items.</p>
 
 <p>With this interface, the caller cannot know which of the fields were NULL.</p>

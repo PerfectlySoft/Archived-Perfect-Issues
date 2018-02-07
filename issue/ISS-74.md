@@ -1,6 +1,6 @@
 # [ISS-74] Crash when deleting object in MongoDb 3.2.0
 
-[XML Source](./xml/ISS-74.xml)
+[XML Source](../xml/ISS-74.xml)
 <p><p>The C-Driver call crashes with:</p>
 
 <p>EXC_BAD_ACCESS<br/>

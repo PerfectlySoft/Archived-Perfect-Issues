@@ -1,6 +1,6 @@
 # [ISS-46] PerfectLib compiled, but PerfectServer failed
 
-[XML Source](./xml/ISS-46.xml)
+[XML Source](../xml/ISS-46.xml)
 <p><p>Running on Ubuntu 14.04</p>
 
 <p>As per the subject, PerfectLib compiled without error, but I get errors when trying to compile the Server.  Error is as follows:</p>

@@ -1,6 +1,6 @@
 # [ISS-27] Tap Tracker Example error
 
-[XML Source](./xml/ISS-27.xml)
+[XML Source](../xml/ISS-27.xml)
 <p><p>Hey, I was trying out the Perfect project and I had an error executing the target <b>Tap Tracker</b> in the <b>Examples.workspace</b>:</p>
 
 <p><tt>~/Perfect-master/PerfectLib/Utilities.swift:427:16: Use of unresolved identifier 'File'</tt></p></p>

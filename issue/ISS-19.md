@@ -1,6 +1,6 @@
 # [ISS-19] Removed the force unwrapping when calling MySQL.connect(...)
 
-[XML Source](./xml/ISS-19.xml)
+[XML Source](../xml/ISS-19.xml)
 <p><p>Representation of null pointers has now changed to use optionals</p></p>
 
 

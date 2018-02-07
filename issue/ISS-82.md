@@ -1,6 +1,6 @@
 # [ISS-82] Suggest: use tyrone-sudeium/JSONCore instead of JSON.swift
 
-[XML Source](./xml/ISS-82.xml)
+[XML Source](../xml/ISS-82.xml)
 <p><p>I tried tyrone-sudeium/JSONCore, it's Foundation free. I try serialize ["ad":[["i": -41451, "i2": 41451, "d": -42E+2, "t": true, "f": false, "n": nil, "a":<span class="error">&#91;1, 2, 3, 4&#93;</span>], <span class="error">&#91;&quot;another&quot;:&quot;one&quot;&#93;</span>]] and it works properly.<br/>
 JSON.swift still have a lot of work to make it work. I think we should just use tyrone-sudeium/JSONCore for JSON parse/serialization and focus on some other Perfect module.</p></p>
 

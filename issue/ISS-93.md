@@ -1,6 +1,6 @@
 # [ISS-93] Added --libpath
 
-[XML Source](./xml/ISS-93.xml)
+[XML Source](../xml/ISS-93.xml)
 <p><p>By default server load libs from ./PerfectLibraries. Or designate path<br/>
 to load libs. For example, run<br/>
 $ perfectserverhttp --libpath /usr/local/PerfectServer/lib</p></p>

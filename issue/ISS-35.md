@@ -1,6 +1,6 @@
 # [ISS-35] tvOS support
 
-[XML Source](./xml/ISS-35.xml)
+[XML Source](../xml/ISS-35.xml)
 <p><p>After <a href="https://twitter.com/nvh/status/670320301566205953" class="external-link" rel="nofollow">this</a> I feel obliged to share some of the process here. Ideally I would like to turn this into a pull request, but as my hacking isn't really ready for merging yet, I'll just share the steps I remember here, so the thinking doesn't have to be performed twice <img class="emoticon" src="http://jira.perfect.org:8080/images/icons/emoticons/smile.png" height="16" width="16" align="absmiddle" alt="" border="0"/></p>
 
 <ul class="alternate" type="square">

@@ -1,6 +1,6 @@
 # [ISS-49] Permissive license - ASL 2.0, MIT, BSD
 
-[XML Source](./xml/ISS-49.xml)
+[XML Source](../xml/ISS-49.xml)
 <p><p>Can you consider moving to a permissive license?</p></p>
 
 

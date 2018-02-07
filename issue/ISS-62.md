@@ -1,6 +1,6 @@
 # [ISS-62] Authenticator example does not validate password.
 
-[XML Source](./xml/ISS-62.xml)
+[XML Source](../xml/ISS-62.xml)
 <p><p>Any password seems to work as long as the username field is valid.</p></p>
 
 

@@ -1,6 +1,6 @@
 # [ISS-24] MySQL - Failing tests for varchars
 
-[XML Source](./xml/ISS-24.xml)
+[XML Source](../xml/ISS-24.xml)
 <p><p>I came across this library and thought of contributing to it. Cloned the repo on the system and started with tests. When I ran <tt>swift test</tt> after <tt>swift build</tt>, encountered two failing tests.</p>
 
 <div class="code panel" style="border-width: 1px;"><div class="codeContent panelContent">

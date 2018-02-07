@@ -1,6 +1,6 @@
 # [ISS-63] no such module "perfectlib"
 
-[XML Source](./xml/ISS-63.xml)
+[XML Source](../xml/ISS-63.xml)
 <p><p>main_http.swift while using XCode 7.2</p>
 
 <p>Just needs the build settings modified slightly</p>

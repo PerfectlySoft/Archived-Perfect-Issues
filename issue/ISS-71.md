@@ -1,6 +1,6 @@
 # [ISS-71] How to run MySQLTests.swift?
 
-[XML Source](./xml/ISS-71.xml)
+[XML Source](../xml/ISS-71.xml)
 <p><p>How can I run MySQLTests.swift on ubuntu?</p>
 
 <p>I've copied both <tt>MySQL.so</tt> and <tt>MySQL.swift</tt> to <tt>Perfect/Connectors/MySQL/MySQLTests</tt>.</p>

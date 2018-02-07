@@ -1,6 +1,6 @@
 # [ISS-17] Rows returned as array of strings
 
-[XML Source](./xml/ISS-17.xml)
+[XML Source](../xml/ISS-17.xml)
 <p><p>When fetching a row such as <tt>row = results.next()</tt> it returns an Element, and getting the fields using <tt>row<span class="error">&#91;0&#93;</span></tt> etc. This makes ugly code. In other languages I can do something like <tt>row<span class="error">&#91;&quot;columnName&quot;&#93;</span></tt> to get the data I'm looking for.</p></p>
 
 

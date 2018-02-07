@@ -1,6 +1,6 @@
 # [ISS-76] Load/Reload .so without restart server?
 
-[XML Source](./xml/ISS-76.xml)
+[XML Source](../xml/ISS-76.xml)
 <p><p>It's an important feature for production environment.</p></p>
 
 

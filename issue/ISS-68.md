@@ -1,6 +1,6 @@
 # [ISS-68] Make subscript methods public
 
-[XML Source](./xml/ISS-68.xml)
+[XML Source](../xml/ISS-68.xml)
 <p></p>
 
 

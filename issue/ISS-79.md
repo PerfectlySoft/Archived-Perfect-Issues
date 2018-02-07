@@ -1,6 +1,6 @@
 # [ISS-79] Fix self retain cycles
 
-[XML Source](./xml/ISS-79.xml)
+[XML Source](../xml/ISS-79.xml)
 <p><p>This pull request addresses the issue with possible retain cycles<br/>
 References to self are now unowned or weak in closures or asynchronous blocks. <br/>
 Also includes added documentation in the JSONEncode class.</p></p>

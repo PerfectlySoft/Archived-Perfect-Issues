@@ -1,6 +1,6 @@
 # [ISS-34] home page too shining...
 
-[XML Source](./xml/ISS-34.xml)
+[XML Source](../xml/ISS-34.xml)
 <p><p><a href="http://perfect.org/" class="external-link" rel="nofollow">http://perfect.org/</a></p>
 
 <p>my eyes suffer.</p></p>

@@ -1,6 +1,6 @@
 # [ISS-26] Build error ld: library not found for -lmysqlclient for architecture x86_64
 
-[XML Source](./xml/ISS-26.xml)
+[XML Source](../xml/ISS-26.xml)
 <p><p>After performing prerequisite steps from the readme, still getting a link error<br/>
 <tt>ld: library not found for -lmysqlclient for architecture x86_64</tt></p>
 

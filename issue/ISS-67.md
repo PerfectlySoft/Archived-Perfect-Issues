@@ -1,6 +1,6 @@
 # [ISS-67] not support websocket
 
-[XML Source](./xml/ISS-67.xml)
+[XML Source](../xml/ISS-67.xml)
 <p><p>not support websocket</p></p>
 
 

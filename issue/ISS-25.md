@@ -1,6 +1,6 @@
 # [ISS-25] Doesn't Build on Ubuntu 16.04
 
-[XML Source](./xml/ISS-25.xml)
+[XML Source](../xml/ISS-25.xml)
 <p><p>Ubuntu 16.04 with 2016-06-20 Swift and 'swift build' yields:</p>
 
 <p>Cloning <a href="https://github.com/PerfectlySoft/Perfect-mysqlclient-Linux.git" class="external-link" rel="nofollow">https://github.com/PerfectlySoft/Perfect-mysqlclient-Linux.git</a><br/>

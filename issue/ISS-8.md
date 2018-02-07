@@ -1,6 +1,6 @@
 # [ISS-8] Perfect-Redis test error
 
-[XML Source](./xml/ISS-8.xml)
+[XML Source](../xml/ISS-8.xml)
 <p><p>Test output below:</p>
 
 <div class="code panel" style="border-width: 1px;"><div class="codeContent panelContent">

@@ -1,6 +1,6 @@
 # [ISS-65] Support SSL? If not,please support SSL.
 
-[XML Source](./xml/ISS-65.xml)
+[XML Source](../xml/ISS-65.xml)
 <p></p>
 
 

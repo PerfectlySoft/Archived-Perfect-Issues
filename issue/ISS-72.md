@@ -1,6 +1,6 @@
 # [ISS-72] An ExpressJs like framework.
 
-[XML Source](./xml/ISS-72.xml)
+[XML Source](../xml/ISS-72.xml)
 <p><p>Hi, I am planning on developing an ExpressJS like framework using swift. I was searching for a swift NetTCP library but could not find one. I like your NetTCP implementation, it is really neat. So, could you publish it as a separate swift package? Thanks in advance</p></p>
 
 

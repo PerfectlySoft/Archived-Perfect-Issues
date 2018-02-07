@@ -1,6 +1,6 @@
 # [ISS-51] pthread_cond_timedwait_relative_np unresolved,any one can help me?
 
-[XML Source](./xml/ISS-51.xml)
+[XML Source](../xml/ISS-51.xml)
 <p><p>Threading.swift:99:14: error: use of unresolved identifier 'pthread_cond_timedwait_relative_np'<br/>
                         let ret = pthread_cond_timedwait_relative_np(&amp;self.cond, &amp;self.mutex, &amp;tm);<br/>
                                   ^<del><sub></del><del></sub></del><del><sub></del><del></sub></del><del><sub></del><del></sub></del>~~~<br/>

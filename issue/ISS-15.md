@@ -1,6 +1,6 @@
 # [ISS-15] Infinite loop when calling connect()
 
-[XML Source](./xml/ISS-15.xml)
+[XML Source](../xml/ISS-15.xml)
 <p><p>When using the MySQL connector, PerfectServer goes into an infinite loop when attempting to call the connect() method.</p>
 
 <p>Back trace:</p>

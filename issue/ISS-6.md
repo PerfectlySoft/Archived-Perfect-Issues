@@ -1,6 +1,6 @@
 # [ISS-6] Perfect-Notifications test error
 
-[XML Source](./xml/ISS-6.xml)
+[XML Source](../xml/ISS-6.xml)
 <p><p>Looks like the tests have not been updated for a refactoring</p>
 
 

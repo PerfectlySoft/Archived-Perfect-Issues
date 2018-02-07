@@ -1,6 +1,6 @@
 # [ISS-11] Perfect-CURL test fails
 
-[XML Source](./xml/ISS-11.xml)
+[XML Source](../xml/ISS-11.xml)
 <p><p>CI log attached:</p>
 
 

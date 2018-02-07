@@ -1,6 +1,6 @@
 # [ISS-13] Perfect-HTTPServer test syntax error
 
-[XML Source](./xml/ISS-13.xml)
+[XML Source](../xml/ISS-13.xml)
 <p><p>From CI:</p>
 
 

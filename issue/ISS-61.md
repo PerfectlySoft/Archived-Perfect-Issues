@@ -1,6 +1,6 @@
 # [ISS-61] Library not loaded: @rpath/libswiftAppKit.dylib
 
-[XML Source](./xml/ISS-61.xml)
+[XML Source](../xml/ISS-61.xml)
 <p><p>Setup:<br/>
 Using the Xcode template I created a new Perfect Server Project, modified the scheme to include the executable PerfectServer HTTP.app, added PerfectLib.Framework to the linked libraries and binaries. The project runs and PerfectServerModuleInit() executes in the project.</p>
 

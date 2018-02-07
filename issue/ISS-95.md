@@ -1,6 +1,6 @@
 # [ISS-95] Updated MACOSX_DEPLOYMENT_TARGET across the board.
 
-[XML Source](./xml/ISS-95.xml)
+[XML Source](../xml/ISS-95.xml)
 <p><p>A warning about fonts in the server app storyboard prompted this. I figured if it had fonts in it that 10.10 doesn't support we might as well update the target.</p></p>
 
 

@@ -1,6 +1,6 @@
 # [ISS-64] Current License Terms for the client code are unacceptable
 
-[XML Source](./xml/ISS-64.xml)
+[XML Source](../xml/ISS-64.xml)
 <p><p>Can you please put the client library code under BSD or MIT?  As it stands, the client apps will be open-sourced as I read the current license.</p></p>
 
 

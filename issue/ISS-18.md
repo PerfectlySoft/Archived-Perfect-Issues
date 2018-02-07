@@ -1,6 +1,6 @@
 # [ISS-18] This package needs a release to be usable by SPM
 
-[XML Source](./xml/ISS-18.xml)
+[XML Source](../xml/ISS-18.xml)
 <p><p>No version tag found in (/homes/typewritersystem/users/ejohnson@ngeosone.com/projects/PerfectTodoList/generation/git/PerfectTodoListBackend/PerfectTodoList/Packages/Perfect-MySQL) package. Add a version tag with "git tag" command. Example: "git tag 0.1.0"</p></p>
 
 

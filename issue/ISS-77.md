@@ -1,6 +1,6 @@
 # [ISS-77] Some fixes
 
-[XML Source](./xml/ISS-77.xml)
+[XML Source](../xml/ISS-77.xml)
 <p></p>
 
 

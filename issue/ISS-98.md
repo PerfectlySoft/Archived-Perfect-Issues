@@ -1,6 +1,6 @@
 # [ISS-98] Swift and Perfect Installer
 
-[XML Source](./xml/ISS-98.xml)
+[XML Source](../xml/ISS-98.xml)
 <p><p>I created a script to get the Perfect Server up and running with all dependencies on a free/existing Ubuntu box.</p></p>
 
 

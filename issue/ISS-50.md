@@ -1,6 +1,6 @@
 # [ISS-50] Issue when launching the server on Ubuntu 15-10 : "the file / was not found"
 
-[XML Source](./xml/ISS-50.xml)
+[XML Source](../xml/ISS-50.xml)
 <p><p>Hello,</p>
 
 <p>I have a problem when i launch the perfectserverhttp from Ubuntu 15-10.<br/>

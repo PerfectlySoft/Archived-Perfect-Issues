@@ -1,6 +1,6 @@
 # [ISS-70] Add attributes to cookie
 
-[XML Source](./xml/ISS-70.xml)
+[XML Source](../xml/ISS-70.xml)
 <p><p>session configuration property don't affect cookie attributes(domain, path, secure, http only).<br/>
 fix to add attributes to cookie.</p></p>
 

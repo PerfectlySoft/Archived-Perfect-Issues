@@ -1,6 +1,6 @@
 # [ISS-44] Perfect Server runs fine in Xcode, but not when I click the .app file.
 
-[XML Source](./xml/ISS-44.xml)
+[XML Source](../xml/ISS-44.xml)
 <p><p>Perfect Server runs fine in Xcode when I click the "run" button, but not when I click the .app file in Finder. How to figure this out?</p></p>
 
 

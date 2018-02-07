@@ -1,6 +1,6 @@
 # [ISS-40] License Rationale and Clarification
 
-[XML Source](./xml/ISS-40.xml)
+[XML Source](../xml/ISS-40.xml)
 <p><p>I see this great project is under the Gnu Affero License, which basically implies that any software built using this server will need to be under the same license (see <a href="https://www.gnu.org/licenses/gpl-faq.html#LinkingOverControlledInterface" class="external-link" rel="nofollow">https://www.gnu.org/licenses/gpl-faq.html#LinkingOverControlledInterface</a>). </p>
 
 <p>Swift.org has been released under the Apache License. Any chance this project would consider doing the same ?</p></p>

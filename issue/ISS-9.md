@@ -1,6 +1,6 @@
 # [ISS-9] Perfect-WebSockets test error
 
-[XML Source](./xml/ISS-9.xml)
+[XML Source](../xml/ISS-9.xml)
 <p><p>From CI:</p>
 
 <div class="code panel" style="border-width: 1px;"><div class="codeContent panelContent">

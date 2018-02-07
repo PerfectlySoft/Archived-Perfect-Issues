@@ -1,6 +1,6 @@
 # [ISS-7] Perfect-PostgreSQL test errors
 
-[XML Source](./xml/ISS-7.xml)
+[XML Source](../xml/ISS-7.xml)
 <p><p>Test log output below:</p>
 
 

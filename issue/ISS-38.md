@@ -1,6 +1,6 @@
 # [ISS-38] Send data with POST / GET request
 
-[XML Source](./xml/ISS-38.xml)
+[XML Source](../xml/ISS-38.xml)
 <p><p>Hi,<br/>
 First, thank you so much for your awesome framework.<br/>
 Please help to explain how could i send data with POST / GET request from client and how to receive those params on server via Swift code ?<br/>

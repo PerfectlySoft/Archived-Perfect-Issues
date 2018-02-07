@@ -1,6 +1,6 @@
 # [ISS-48] can't start perfectserverfcgi on Ubuntu 15.10
 
-[XML Source](./xml/ISS-48.xml)
+[XML Source](../xml/ISS-48.xml)
 <p><p>Running on Ubuntu 15.10(64bit)</p>
 
 <p>I can start </p>

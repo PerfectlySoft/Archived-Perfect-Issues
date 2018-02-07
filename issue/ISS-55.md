@@ -1,6 +1,6 @@
 # [ISS-55] Docker image
 
-[XML Source](./xml/ISS-55.xml)
+[XML Source](../xml/ISS-55.xml)
 <p><p>Hi there,</p>
 
 <p>I'm one of the contributors to <a href="https://github.com/swiftdocker/docker-swift" class="external-link" rel="nofollow">https://github.com/swiftdocker/docker-swift</a>. If there's any interest in vendoring a docker image containing the suite of Perfect libraries and possibly the server (though I wonder if long term a server isn't really in your interest, given that nginx etc exist) for easy development and deployment, please let me know if I can be of any assistance!</p></p>

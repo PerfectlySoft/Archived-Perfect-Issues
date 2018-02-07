@@ -1,6 +1,6 @@
 # [ISS-37] Routing
 
-[XML Source](./xml/ISS-37.xml)
+[XML Source](../xml/ISS-37.xml)
 <p><p>Hi, I can't find in doc. How I can handle routing with Perfect?</p></p>
 
 

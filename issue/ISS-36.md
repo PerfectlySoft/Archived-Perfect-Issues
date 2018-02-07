@@ -1,6 +1,6 @@
 # [ISS-36] Run "Tap Tracker"  is not displayed 'Tap Button', But it displays an error, the error is: _kCFStreamErrorDomainKey
 
-[XML Source](./xml/ISS-36.xml)
+[XML Source](../xml/ISS-36.xml)
 <p><p><span class="image-wrap" style=""><img src="https://cloud.githubusercontent.com/assets/3257519/11469702/4114cdd4-9793-11e5-8912-d09c9b58eac4.png" style="border: 0px solid black" /></span></p></p>
 
 

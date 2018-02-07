@@ -1,6 +1,6 @@
 # [ISS-45] mustache spelling fix
 
-[XML Source](./xml/ISS-45.xml)
+[XML Source](../xml/ISS-45.xml)
 <p><p>Changed moustache to mustache in every location I could find.</p></p>
 
 

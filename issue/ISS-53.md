@@ -1,6 +1,6 @@
 # [ISS-53] Update README.md
 
-[XML Source](./xml/ISS-53.xml)
+[XML Source](../xml/ISS-53.xml)
 <p><p>Added new link for updated UX asset</p></p>
 
 

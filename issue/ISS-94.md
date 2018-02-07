@@ -1,6 +1,6 @@
 # [ISS-94] Made `documentRoot` public and `lazy`
 
-[XML Source](./xml/ISS-94.xml)
+[XML Source](../xml/ISS-94.xml)
 <p></p>
 
 

@@ -1,6 +1,6 @@
 # [ISS-30] Cleaned up the Badgers
 
-[XML Source](./xml/ISS-30.xml)
+[XML Source](../xml/ISS-30.xml)
 <p><p>"I don't have to show you any stinkin' Badges"<br/>
 Quote from - <a href="https://www.youtube.com/watch?v=VqomZQMZQCQ" class="external-link" rel="nofollow">https://www.youtube.com/watch?v=VqomZQMZQCQ</a></p></p>
 

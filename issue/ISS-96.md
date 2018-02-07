@@ -1,6 +1,6 @@
 # [ISS-96] gitignoring  *.xcscmblueprint
 
-[XML Source](./xml/ISS-96.xml)
+[XML Source](../xml/ISS-96.xml)
 <p></p>
 
 

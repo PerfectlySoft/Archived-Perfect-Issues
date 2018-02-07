@@ -1,6 +1,6 @@
 # [ISS-29] Change name of handler in comment to match what is being called
 
-[XML Source](./xml/ISS-29.xml)
+[XML Source](../xml/ISS-29.xml)
 <p><p>modify comment to match the actual name in the example</p></p>
 
 

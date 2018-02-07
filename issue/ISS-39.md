@@ -1,6 +1,6 @@
 # [ISS-39] Swift is now open source
 
-[XML Source](./xml/ISS-39.xml)
+[XML Source](../xml/ISS-39.xml)
 <p><p>Finally open source!<br/>
 Can't wait to use this project on my Linux server.</p>
 

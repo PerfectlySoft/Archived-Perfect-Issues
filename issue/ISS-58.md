@@ -1,6 +1,6 @@
 # [ISS-58] WebRequest has no method for accessing body
 
-[XML Source](./xml/ISS-58.xml)
+[XML Source](../xml/ISS-58.xml)
 <p><p>The current implementation of <tt>WebRequest</tt> appears to try to assume/do too much.  Particularly in the event of POSTing <tt>Content-type:  application/json</tt>, I should be able to post a document body with a properly formed JSON string.  Then, in my handler I can access the body directly (what appears to be <tt>request.connection.stdin</tt> but that is protected) without any "intelligence" from <tt>postParams</tt> processing.</p></p>
 
 

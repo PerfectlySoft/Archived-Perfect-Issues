@@ -1,6 +1,6 @@
 # [ISS-42] support for web sockets and socket.io planned?
 
-[XML Source](./xml/ISS-42.xml)
+[XML Source](../xml/ISS-42.xml)
 <p><p>We use socket.io in our current Swift iOS app and would love to move from Node.js to perfect.  </p>
 
 <p>Please consider adding socket.io support into your plans.  A roadmap of features (and a place to vote for your favorite) would be a great addition to this project.</p></p>

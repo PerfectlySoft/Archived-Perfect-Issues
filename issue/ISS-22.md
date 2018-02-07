@@ -1,6 +1,6 @@
 # [ISS-22] MariaDB compatibility?
 
-[XML Source](./xml/ISS-22.xml)
+[XML Source](../xml/ISS-22.xml)
 <p><p>MariaDB is generally a drop-in replacement for MySQL, but attempting to build this module with MariaDB installed on the system (instead of MySQL) results in the error <tt>ld: library not found for -lmysqlclient for architecture x86_64</tt>.  Is there any way this module could be used with MariaDB?</p></p>
 
 

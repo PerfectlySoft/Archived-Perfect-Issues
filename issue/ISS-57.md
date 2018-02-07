@@ -1,6 +1,6 @@
 # [ISS-57] Trailing URL Variables not placed in urlVariables dictionary
 
-[XML Source](./xml/ISS-57.xml)
+[XML Source](../xml/ISS-57.xml)
 <p><p>I would expect <tt>urlVariables</tt> to contain an entry for <tt>id</tt> in the following case:</p>
 <div class="code panel" style="border-width: 1px;"><div class="codeContent panelContent">
 <pre class="code-java">

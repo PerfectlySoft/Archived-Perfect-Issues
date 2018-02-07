@@ -1,6 +1,6 @@
 # [ISS-10] PerfectUltimateNaughtsAndCrosses Test error
 
-[XML Source](./xml/ISS-10.xml)
+[XML Source](../xml/ISS-10.xml)
 <p><p>Test results file attached</p></p>
 
 

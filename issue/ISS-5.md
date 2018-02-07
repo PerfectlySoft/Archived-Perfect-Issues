@@ -1,6 +1,6 @@
 # [ISS-5] Perfect-MongoDB build error - Ubuntu - mongoc.h path
 
-[XML Source](./xml/ISS-5.xml)
+[XML Source](../xml/ISS-5.xml)
 <p><p>On Ubuntu the path location by default:</p>
 
 <div class="code panel" style="border-width: 1px;"><div class="codeContent panelContent">

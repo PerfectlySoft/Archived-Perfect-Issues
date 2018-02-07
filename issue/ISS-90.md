@@ -1,6 +1,6 @@
 # [ISS-90] Laravel style controllers
 
-[XML Source](./xml/ISS-90.xml)
+[XML Source](../xml/ISS-90.xml)
 <p><p>I set up a typical JSON API route using Perfect. </p>
 
 <div class="code panel" style="border-width: 1px;"><div class="codeContent panelContent">

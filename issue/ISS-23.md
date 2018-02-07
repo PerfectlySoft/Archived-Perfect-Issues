@@ -1,6 +1,6 @@
 # [ISS-23] Doesn't Build on Ubuntu 14.04
 
-[XML Source](./xml/ISS-23.xml)
+[XML Source](../xml/ISS-23.xml)
 <p><p>libmysqlclient-dev is installed.  I don't observe "MYSQL_SERVER_PUBLIC_KEY" in the MySQL headers.  CloudFoundry uses Ubuntu 14.04.</p>
 
 <p>Ubuntu 14.04 with 2016-06-20 Swift and 'swift build' yields:</p>

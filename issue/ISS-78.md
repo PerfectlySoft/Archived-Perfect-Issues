@@ -1,6 +1,6 @@
 # [ISS-78] JSONEncode should use type methods or be renamed JSONEncoder
 
-[XML Source](./xml/ISS-78.xml)
+[XML Source](../xml/ISS-78.xml)
 <p><p>Hi everybody,</p>
 
 <p>First of all I wanna thank everyone for the great work on this project. I'm so excited about being able to use swift in full stack mode!</p>

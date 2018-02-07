@@ -1,6 +1,6 @@
 # [ISS-52] Cannot build on osx, make failed
 
-[XML Source](./xml/ISS-52.xml)
+[XML Source](../xml/ISS-52.xml)
 <p><p>Got this after running make on el capitan, did i miss something?</p>
 
 <p>&lt;module-includes&gt;:1:9: note: in file included from &lt;module-includes&gt;:1:</p>

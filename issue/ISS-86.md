@@ -1,6 +1,6 @@
 # [ISS-86] typo
 
-[XML Source](./xml/ISS-86.xml)
+[XML Source](../xml/ISS-86.xml)
 <p><p>recieve =&gt; receive</p></p>
 
 

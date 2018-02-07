@@ -1,6 +1,6 @@
 # [ISS-43] MYSQL / MongoDB Doc
 
-[XML Source](./xml/ISS-43.xml)
+[XML Source](../xml/ISS-43.xml)
 <p><p>I frenquently use MYSQL or MongoDB for my websites, APIs and other and I would like to use these with Perfect.. But we haven't docs for these Connectors</p></p>
 
 

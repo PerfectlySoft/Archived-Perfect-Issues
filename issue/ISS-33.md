@@ -1,6 +1,6 @@
 # [ISS-33] [project] Replace instances of "moustache"
 
-[XML Source](./xml/ISS-33.xml)
+[XML Source](../xml/ISS-33.xml)
 <p><p>Signed-off-by: Shao Miller &lt;shao.miller@treefrog.ca&gt;</p></p>
 
 

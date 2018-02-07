@@ -1,6 +1,6 @@
 # [ISS-54] Building on Linux
 
-[XML Source](./xml/ISS-54.xml)
+[XML Source](../xml/ISS-54.xml)
 <p><p>I've spent the last two days trying to get a project with several dependencies compiled and running on Linux. The other projects I've been working with use the Swift Package Manager approach, a Package.swift definition file plus /Sources directory, which makes it very easy to link dependencies from their github repo URL. </p>
 
 <p>Perfect on the other hand uses a makefile. It would be really nice to be able to reference PerfectLib in the same manner, but it doesn't appear the project is structured to be Swift Package Manager friendly (unless I'm missing it). </p>

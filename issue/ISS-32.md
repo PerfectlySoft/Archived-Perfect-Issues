@@ -1,6 +1,6 @@
 # [ISS-32] Dependency manager integration
 
-[XML Source](./xml/ISS-32.xml)
+[XML Source](../xml/ISS-32.xml)
 <p><p>Hi, <a href="http://jira.perfect.org:8080/secure/ViewProfile.jspa?name=kjessup" class="user-hover" rel="kjessup">Kyle Jessup</a> first of all let me say that I very like and enjoy of your project!</p>
 
 <p>But is there going to be some CocoaPods or Carthage integrations?</p></p>

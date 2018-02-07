@@ -1,6 +1,6 @@
 # [ISS-88] Handle request concurrently
 
-[XML Source](./xml/ISS-88.xml)
+[XML Source](../xml/ISS-88.xml)
 <p><p>Hi all   <br/>
 Does the framework handle incoming request concurrently?  <br/>
 Thanks</p></p>

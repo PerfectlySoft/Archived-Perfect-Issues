@@ -1,6 +1,6 @@
 # [ISS-73] can not read static file in using URL routing on Perfect Server HTTP
 
-[XML Source](./xml/ISS-73.xml)
+[XML Source](../xml/ISS-73.xml)
 <p><p>if running Perfect Server HTTP and using URL routing, can not read static file.</p></p>
 
 

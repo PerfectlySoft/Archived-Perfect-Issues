@@ -1,6 +1,6 @@
 # [ISS-80] Fix typo in comment.
 
-[XML Source](./xml/ISS-80.xml)
+[XML Source](../xml/ISS-80.xml)
 <p><p>It's probably your standard Copy&amp;Paste error.</p></p>
 
 

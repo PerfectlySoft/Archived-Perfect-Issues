@@ -1,6 +1,6 @@
 # [ISS-69] Swift NGINX Module?
 
-[XML Source](./xml/ISS-69.xml)
+[XML Source](../xml/ISS-69.xml)
 <p><p>A moderate feature request: Perfect has an Apache connector; it would be great to see an NGINX module too!</p></p>
 
 

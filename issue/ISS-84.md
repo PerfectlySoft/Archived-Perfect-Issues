@@ -1,6 +1,6 @@
 # [ISS-84] Update code to quiet Swift 2.2 deprecation warnings
 
-[XML Source](./xml/ISS-84.xml)
+[XML Source](../xml/ISS-84.xml)
 <p><p>The ++ and &#8211; operators are deprecated, as is c-style for loop syntax.</p></p>
 
 

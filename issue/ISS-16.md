@@ -1,6 +1,6 @@
 # [ISS-16] Fix issue ISS-15: Infinite loop on connect()
 
-[XML Source](./xml/ISS-16.xml)
+[XML Source](../xml/ISS-16.xml)
 <p><p><tt>alloc</tt> method was calling itself. I believe the revised code was the intention.</p></p>
 
 

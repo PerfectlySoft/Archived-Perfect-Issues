@@ -1,6 +1,6 @@
 # [ISS-28] Swift server supporting other platforms like Android
 
-[XML Source](./xml/ISS-28.xml)
+[XML Source](../xml/ISS-28.xml)
 <p><p>Any complete platform requires iOS , Web and Android . Is it possible to use the same endpoint or URL in the android app and the swift server would perform well  with all debugging tools ?</p></p>
 
 

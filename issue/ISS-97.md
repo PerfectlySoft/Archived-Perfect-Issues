@@ -1,6 +1,6 @@
 # [ISS-97] Refractor [String:Any]() to MustacheEvaluationContext.MapType()
 
-[XML Source](./xml/ISS-97.xml)
+[XML Source](../xml/ISS-97.xml)
 <p></p>
 
 

@@ -1,6 +1,6 @@
 # [ISS-99] HTTP Server, unicode folder name
 
-[XML Source](./xml/ISS-99.xml)
+[XML Source](../xml/ISS-99.xml)
 <p><p>I followed this example to create my demo app: <a href="https://github.com/PerfectlySoft/Perfect/blob/master/PerfectServer/main_http.swift" class="external-link" rel="nofollow">https://github.com/PerfectlySoft/Perfect/blob/master/PerfectServer/main_http.swift</a></p>
 
 <p>HTTP Server to host a static website. This static website contains a folder containing unicode characters, example:  <tt>/中文/index.html</tt></p>

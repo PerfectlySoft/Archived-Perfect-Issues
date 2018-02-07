@@ -1,6 +1,6 @@
 # [ISS-91] Small Typo. Binary not sting.
 
-[XML Source](./xml/ISS-91.xml)
+[XML Source](../xml/ISS-91.xml)
 <p><p>Just fixing a small typo in the WebSockets example.</p></p>
 
 

@@ -1,6 +1,6 @@
 # [ISS-83] Make useful String methods public
 
-[XML Source](./xml/ISS-83.xml)
+[XML Source](../xml/ISS-83.xml)
 <p><p>Some useful String methods </p>
 <div class="code panel" style="border-width: 1px;"><div class="codeContent panelContent">
 <pre class="code-java">(ex.stringByReplacingString())</pre>

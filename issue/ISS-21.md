@@ -1,6 +1,6 @@
 # [ISS-21] The MySQL.Results class now handles NULL values in the result set
 
-[XML Source](./xml/ISS-21.xml)
+[XML Source](../xml/ISS-21.xml)
 <p><p>The <tt>String</tt> array now includes nil values</p>
 
 <p><tt>Element</tt> has thus been changed from a <tt><span class="error">&#91;String&#93;</span></tt> to a <tt><span class="error">&#91;String?&#93;</span></tt> alias</p>

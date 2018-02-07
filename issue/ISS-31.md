@@ -1,6 +1,6 @@
 # [ISS-31] Deploy on AWS?
 
-[XML Source](./xml/ISS-31.xml)
+[XML Source](../xml/ISS-31.xml)
 <p><p>I'm assuming this can't be deployed to a real production server yet, since it can't run on linux.<br/>
 Is that something that is only reconcilable after Apple open sources the language?</p>
 

@@ -1,6 +1,6 @@
 # [ISS-59] MySQL Connector Build Failed
 
-[XML Source](./xml/ISS-59.xml)
+[XML Source](../xml/ISS-59.xml)
 <p><p>Have an error on line 53 of MySQL.swift:<br/>
          static private var dispatchOnce: Threading.ThreadOnce = 0<br/>
          &#8211; Cannot convert value of type'Int' to specified type 'ThreadOnce' (aka '_opaque_pthread_once_t')</p></p>
