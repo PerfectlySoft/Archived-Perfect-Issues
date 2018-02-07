@@ -1,0 +1,538 @@
+From 83108f6b44ccf068d55022141eb73da702102c60 Mon Sep 17 00:00:00 2001
+From: Rockford Wei <rocky@perfect.org>
+Date: Fri, 28 Oct 2016 14:11:27 -0400
+Subject: [PATCH] README & LICENSE translated
+
+---
+ LICENSE.zh_CN   |  59 ++++++++++++++
+ README.md       |  14 +++-
+ README.zh_CN.md | 243 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 3 files changed, 314 insertions(+), 2 deletions(-)
+ create mode 100755 LICENSE.zh_CN
+ create mode 100644 README.zh_CN.md
+
+diff --git a/LICENSE.zh_CN b/LICENSE.zh_CN
+new file mode 100755
+index 0000000..3b8b5d5
+--- /dev/null
++++ b/LICENSE.zh_CN
+@@ -0,0 +1,59 @@
++Apache许可证
++2.0版 2004年1月
++http://www.apache.org/licenses/
++
++关于使用、复制和分发的条款
++
++定义
++"许可证"是指根据本文件第1到第9部分关于使用、复制和分发的条款。
++
++"许可证颁发者"是指版权所有者或者由版权所有者授权许可证的实体。
++
++"法律实体"是指实施实体和进行控制的所有其它实体受该实体控制，或者受该实体集中控制。根据此定义，"控制"是指(i)让无论是否签订协议的上述实体，进行指导或管理的直接权利或间接权利，或者(ii)拥有百分之五十(50%)或以上已发行股票的所有者，或者(iii)上述实体的实权所有者。
++
++"用户"(或"用户的")是指行使本许可证所授予权限的个人或法律实体。
++
++"源程序"形式是指对包括但不限于软件源代码、文件源程序和配置文件进行修改的首选形式。
++
++"目标"形式是指对源程序形式进行机械转换或翻译的任何形式，包括但不限于对编译的目标代码，生成的文件以及转换为其它媒体类型。
++
++"作品"是指根据本许可证所制作的源程序形式或目标形式的著作，在著作中包含的或附加的版权通知(在下面附录中提供了一个示例)。
++
++"衍生作品"是指基于作品(或从作品衍生而来)的源程序形式或目标形式的任何作品，以及编辑修订、注释、详细描述或其它修订等构成原创著作作品的整体。根据本许可证，衍生作品不得包括与作品及其衍生作品分离之作品，或仅与作品及其衍生作品的接口相链接(或按名称结合)之作品。
++
++"贡献"是指任何著作作品，包括作品的原始版本和对该作品或衍生作品所做的任何修订或补充，意在提交给许可证颁发者以让版权所有者或代表版权所有者的授权个人或法律实体包含在其作品中。根据此定义，"提交"一词表示发送给许可证颁发者或其代表人，任何电子的、口头的或书面的交流信息形式，包括但不限于在由许可证颁发者或者代表其管理的电子邮件清单、源代码控制系统、以及发布跟踪系统上为讨论和提高作品的交流，但不包括由版权所有者以书面形式明显标注或指定为"非贡献"的交流活动。
++
++"贡献者"是指许可证颁发者和代表从许可证颁发者接受之贡献的并随后包含在作品之贡献中的任何个人或法律实体。
++
++版权许可证的授予。根据本许可证的条款，每个贡献者授予用户永久性的、全球性的、非专有性的、免费的、无版权费的、不可撤销的版权许可证以源程序形式或目标形式复制、准备衍生作品、公开显示、公开执行、授予分许可证、以及分发作品和这样的衍生作品。
++专利许可证的授予。根据本许可证的条款，每个贡献者授予用户永久性的、全球性的、非专有性的、免费的、无版权费的、不可撤销的(除在本部分进行说明)专利许可证对作品进行制作、让人制作、使用、提供销售、销售、进口和其它转让，且这样的许可证仅适用于在所递交作品的贡献中因可由单一的或多个这样的贡献者授予而必须侵犯的申请专利。如果用户对任何实体针对作品或作品中所涉及贡献提出因直接性或贡献性专利侵权而提起专利法律诉讼(包括交互诉讼请求或反索赔)，那么根据本许可证，授予用户针对作品的任何专利许可证将在提起上述诉讼之日起终止。
++重新分发。用户可在任何媒介中复制和分发作品或衍生作品之副本，无论是否修订，还是以源程序形式或目标形式，条件是用户需满足下列条款：
++用户必须为作品或衍生作品的任何其他接收者提供本许可证的副本；并且
++用户必须让任何修改过的文件附带明显的通知，声明用户已更改文件；并且
++用户必须从作品的源程序形式中保留衍生作品源程序形式的用户所分发的所有版权、专利、商标和属性通知，但不包括不属于衍生作品任何部分的类似通知；并且
++如果作品将"通知"文本文件包括为其分发作品的一部分，那么用户分发的任何衍生作品中须至少在下列地方之一包括，在这样的通知文件中所包含的属性通知的可读副本，但不包括那些不属于衍生作品任何部分的通知：在作为衍生作品一部分而分发的通知文本文件中；如果与衍生作品一起提供则在源程序形式或文件中；或者通常作为第三方通知出现的时候和地方，在衍生作品中产生的画面中。通知文件的内容仅供信息提供，并未对许可证进行修改。用户可在其分发的衍生作品中在作品的通知文本后或作为附录添加自己的属性通知，条件是附加的属性通知不得构成修改本许可证。
++用户可以为自身所做出的修订添加自己的版权声明并可对自身所做出修订内容或为这样的衍生作品作为整体的使用、复制或分发提供附加或不同的条款，条件是用户对作品的使用、复制和分发必须符合本许可证中声明的条款。
++
++贡献的提交。除非用户明确声明，在作品中由用户向许可证颁发者的提交若要包含在贡献中，必须在无任何附加条款下符合本许可证的条款。尽管上面如此规定，执行许可证颁发者有关贡献的条款时，任何情况下均不得替代或修改任何单独许可证协议的条款。
++商标。本许可证并未授予用户使用许可证颁发者的商号、商标、服务标记或产品名称，除非将这些名称用于合理性和惯例性描述作品起源和复制通知文件的内容时。
++保证否认条款。除非因适用法律需要或书面同意，许可证颁发者以"按原样"基础提供作品(并且每个贡献者提供其贡献)，无任何明示的或暗示的保证或条件，包括但不限于关于所有权、不侵权、商品适销性、或适用性的保证或条件。用户仅对使用或重新分发作品的正确性负责，并需承担根据本许可证行使权限时的任何风险。
++责任限制条款。在任何情况下并根据任何法律，无论是因侵权(包括过失)或根据合同，还是其它原因，除非根据适用法律需要(例如故意行为和重大过失行为)或经书面同意，即使贡献者事先已被告知发生损害的可能性，任何贡献者不就用户因使用本许可证或不能使用或无法使用作品(包括但不限于商誉损失、停工、计算机失效或故障，或任何商业损坏或损失)而造成的损失，包括直接的、非直接的、特殊的、意外的或间接的字符损坏而负责。
++接受保证或附加责任。重新分发作品或及其衍生作品时，用户可选择提供或为符合本许可证承担之支持、担保、赔偿或其它职责义务和/或权利而收取费用。但是，在承担上述义务时，用户只可代表用户本身和用户本身责任来执行，无需代表任何其它贡献者，并且用户仅可保证、防护并保持每个贡献者不受任何因此而产生的责任或对因用户自身承担这样的保证或附加责任而对这样的贡献者所提出的索赔。
++条款结束
++
++附录：如何向用户作品中应用Apache许可证。
++
++若要向用户作品应用Apache许可证，请附加下列样本通知，将括号"[]"中的字段以用户自身的区分信息来替换(但不包括括号)。文本必须以文件格式适当的注释句法包含在其中。另外建议将文件名或类别名以及目的说明包含在相同的"打印页"上作为版权通知，以更加容易的区分出第三方档案。
++
++版权所有[yyyy][版权所有者的名称]
++
++根据2.0版本Apache许可证("许可证")授权；
++根据本许可证，用户可以不使用此文件。
++用户可从下列网址获得许可证副本：
++
++http://www.apache.org/licenses/LICENSE-2.0
++
++除非因适用法律需要或书面同意，
++根据许可证分发的软件是基于"按原样"基础提供，
++无任何明示的或暗示的保证或条件。
++详见根据许可证许可下，特定语言的管辖权限和限制。
+diff --git a/README.md b/README.md
+index 6597f51..65e29a1 100644
+--- a/README.md
++++ b/README.md
+@@ -1,4 +1,4 @@
+-Perfect - MongoDB Connector
++Perfect - MongoDB Connector [简体中文](README.zh_CN.md)
+ ===========================
+ 
+ <p align="center">
+@@ -81,7 +81,17 @@ brew install mongo-c
+ Linux Build Notes
+ -----------------
+ 
+-Ensure that you have installed libmongoc.
++Ensure that you have installed components below:
++
++```
++apt-get install libmongoc-dev libbson-dev libssl-dev
++```
++
++The default installation of libmongoc is /usr/local/include. If not, please correct the path manually:
++
++```
++ln -s /usr/include/libmongoc-1.0/ libmongoc-1.0
++```
+ 
+ Building
+ --------
+diff --git a/README.zh_CN.md b/README.zh_CN.md
+new file mode 100644
+index 0000000..a911235
+--- /dev/null
++++ b/README.zh_CN.md
+@@ -0,0 +1,243 @@
++Perfect - MongoDB 数据库连接器 [English](README.md)
++===========================
++
++<p align="center">
++    <a href="http://perfect.org/get-involved.html" target="_blank">
++        <img src="http://perfect.org/assets/github/perfect_github_2_0_0.jpg" alt="Get Involed with Perfect!" width="854" />
++    </a>
++</p>
++
++<p align="center">
++    <a href="https://github.com/PerfectlySoft/Perfect" target="_blank">
++        <img src="http://www.perfect.org/github/Perfect_GH_button_1_Star.jpg" alt="Star Perfect On Github" />
++    </a>  
++    <a href="http://stackoverflow.com/questions/tagged/perfect" target="_blank">
++        <img src="http://www.perfect.org/github/perfect_gh_button_2_SO.jpg" alt="Stack Overflow" />
++    </a>  
++    <a href="https://twitter.com/perfectlysoft" target="_blank">
++        <img src="http://www.perfect.org/github/Perfect_GH_button_3_twit.jpg" alt="Follow Perfect on Twitter" />
++    </a>  
++    <a href="http://perfect.ly" target="_blank">
++        <img src="http://www.perfect.org/github/Perfect_GH_button_4_slack.jpg" alt="Join the Perfect Slack" />
++    </a>
++</p>
++
++<p align="center">
++    <a href="https://developer.apple.com/swift/" target="_blank">
++        <img src="https://img.shields.io/badge/Swift-3.0-orange.svg?style=flat" alt="Swift 3.0">
++    </a>
++    <a href="https://developer.apple.com/swift/" target="_blank">
++        <img src="https://img.shields.io/badge/Platforms-OS%20X%20%7C%20Linux%20-lightgray.svg?style=flat" alt="Platforms OS X | Linux">
++    </a>
++    <a href="http://perfect.org/licensing.html" target="_blank">
++        <img src="https://img.shields.io/badge/License-Apache-lightgrey.svg?style=flat" alt="License Apache">
++    </a>
++    <a href="http://twitter.com/PerfectlySoft" target="_blank">
++        <img src="https://img.shields.io/badge/Twitter-@PerfectlySoft-blue.svg?style=flat" alt="PerfectlySoft Twitter">
++    </a>
++    <a href="http://perfect.ly" target="_blank">
++        <img src="http://perfect.ly/badge.svg" alt="Slack Status">
++    </a>
++</p>
++
++
++本项目封装了 mongo-c 客户端函数库，因此可以使用 Swift 访问 MongoDB 服务器。
++
++本项目是
++[Perfect](https://github.com/PerfectlySoft/Perfect) 软件体系的一部分，但是可以独立运行，不依赖于 PerfectLib 基本库。
++请确保您已经正确安装了最新版本的 Swift 3.0 工具链。
++
++
++
++
++## 问题报告
++
++我们正在过渡到 JIRA 程序错误管理系统，因此 GitHub 的问题报告功能就被禁用了。
++
++如果您发现任何问题，或有任何意见和建议，请在我们的 JIRA 工作台指出 [http://jira.perfect.org:8080/servicedesk/customer/portal/1](http://jira.perfect.org:8080/servicedesk/customer/portal/1)。
++
++目前的问题清单请查阅 [http://jira.perfect.org:8080/projects/ISS/issues](http://jira.perfect.org:8080/projects/ISS/issues)
++
++OS X 注意事项
++----------------
++
++本程序依赖于 [Home Brew](http://brew.sh) 发行的 mongo-c 函数库。 
++
++如果您要安装 Home Brew:
++
++~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
++/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
++~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
++
++安装 mongo-c 的方法:
++
++~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
++brew install mongo-c
++~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
++
++Linux 注意事项
++-----------------
++
++请确定以下函数库已经预装：
++
++```
++apt-get install libmongoc-dev libbson-dev libssl-dev
++```
++
++另外，Perfect 默认 libmongoc 安装在 /usr/local/include 目录下。如果不是的话，请您手工增加链接：
++
++```
++ln -s /usr/include/libmongoc-1.0/ libmongoc-1.0
++```
++
++编译
++--------
++
++请在您的 Package.swift 文件下增加以下内容：
++
++```swift
++.Package(url:"https://github.com/PerfectlySoft/Perfect-MongoDB.git", majorVersion: 2, minor: 0)
++```
++
++快速上手
++-----------
++
++您可以直接克隆我们的模板工程：
++
++```
++git clone https://github.com/PerfectlySoft/PerfectTemplate.git
++cd PerfectTemplate
++```
++
++并为 Package.swift 文件增加依存关系：
++
++```swift
++let package = Package(
++ name: "PerfectTemplate",
++ targets: [],
++ dependencies: [
++     .Package(url:"https://github.com/PerfectlySoft/PerfectLib.git", majorVersion: 2, minor: 0),
++     .Package(url:"https://github.com/PerfectlySoft/Perfect-MongoDB.git", majorVersion: 2, minor: 0)
++    ]
++)
++```
++
++按照下面的命令创建 Xcode 工程文件夹
++
++```
++swift package generate-xcodeproj
++```
++
++然后您就可以在 Xcode 里面打开工程 `PerfectTemplate.xcodeproj` 。
++
++该项目将在 Xcode 下编译，并在运行时启动服务器监听 8181 端口。
++
++>   **Important:** 如果您改变了 Package.swift 文件，则必须重新运行```generate-xcodeproj```脚本，而且所有 Xcode 的配置都会被覆盖。
++
++连接到 MongoDB 并进行查询
++----------------------------------------------------
++
++在 Xcode 中，打开 ```Sources/PerfectTemplate/main.swift```，然后更新以下代码：
++
++```swift
++import PerfectLib
++
++// 初始化基本服务
++PerfectServer.initializeServices()
++
++// 增加路由
++addURLRoutes()
++
++do {
++    // 启动 HTTP 服务并监听 8181 端口
++    try HTTPServer(documentRoot: "./webroot").start(port: 8181)
++} catch PerfectError.networkError(let err, let msg) {
++    print("网络异常 \(err) \(msg)")
++}
++```
++
++在您的源代码目录下与文件 `main.swift` 同一级别下创建一个新文件并命名为 `routingHandlers.swift`
++
++下一步
++
++-   为 PerfectLib 和 MongoDB 连接器设置导入；
++
++-   增加测试路由；
++
++-   注册路由到服务器上。
++
++```swift
++import PerfectLib
++import MongoDB
++
++func addURLRoutes() {
++    Routing.Routes["/test" ] = testHandler
++    Routing.Routes["/mongo" ] = mongoHandler
++}
++
++// 将所有路由都注册到服务器上。
++public func PerfectServerModuleInit() {
++    addURLRoutes()
++}
++```
++
++注意上面的程序追加了两个路由。
++
++路由句柄 “/test” 用于返回一个 “你好，世界！” 的 JSON 字符串。
++
++```swift
++func testHandler(request: WebRequest, _ response: WebResponse) {
++    let returning = "{你好，世界！}"
++    response.appendBody(string: returning)
++    response.requestCompleted()
++}
++```
++
++更多路由例子请参考 “URL Routing” 示例：
++(<https://github.com/PerfectlySoft/PerfectExample-URLRouting>)
++
++MongoDB 访问句柄请参考如下：
++
++```swift
++func mongoHandler(request: WebRequest, _ response: WebResponse) {
++
++    // 创建连接
++    let client = try! MongoClient(uri: "mongodb://localhost")
++
++    // 连接到具体的数据库，假设有个数据库名字叫 test
++    let db = client.getDatabase(name: "test")
++
++    // 定义集合
++    guard let collection = db.getCollection(name: "testcollection") else {
++        return
++    }
++
++    // 在关闭连接时注意关闭顺序与启动顺序相反
++    defer {
++        collection.close()
++        db.close()
++        client.close()
++    }
++
++    // 执行查询
++    let fnd = collection.find(query: BSON())
++
++    // 初始化一个空数组用于存放结果记录集
++    var arr = [String]()
++
++    // "fnd" 游标是一个 MongoCursor 类型，用于遍历结果
++    for x in fnd! {
++        arr.append(x.asString)
++    }
++
++    // 返回一个格式化的 JSON 数组。
++    let returning = "{\"data\":[\(arr.joined(separator: ","))]}"
++
++    // 返回 JSON 字符串
++    response.appendBody(string: returning)
++    response.requestCompleted()
++}
++```
++
++## 更多信息
++关于 Perfect 软件函数库的更多信息，请访问官网： [perfect.org](http://perfect.org).
+-- 
+2.8.1
+
+From 05664268f7e120ff1243109a6f0d1a880bd22785 Mon Sep 17 00:00:00 2001
+From: DMITRY KULAKOV <navartis@gmail.com>
+Date: Fri, 11 Nov 2016 16:35:20 +0300
+Subject: [PATCH] Distinct and command functions implementation for
+ MongoCollection
+
+---
+ Sources/MongoDB/MongoCollection.swift | 62 +++++++++++++++++++++++++++++++++++
+ 1 file changed, 62 insertions(+)
+
+diff --git a/Sources/MongoDB/MongoCollection.swift b/Sources/MongoDB/MongoCollection.swift
+index bb7fd66..c747aca 100644
+--- a/Sources/MongoDB/MongoCollection.swift
++++ b/Sources/MongoDB/MongoCollection.swift
+@@ -605,4 +605,66 @@ public class MongoCollection {
+ 		let reply = mongoc_collection_get_last_error(ptr)
+ 		return NoDestroyBSON(rawBson: UnsafeMutablePointer(mutating: reply))
+ 	}
++    
++    /**
++     *  Finds the distinct values and returns a cursor for a specified field across a single collection.
++     *
++     *  - parameter key:    The field for which to return distinct values.
++     *  - parameter query:    Optional. A query that specifies the documents from which to retrieve the distinct values.
++     *  - parameter readConcern:    Optional. Specifies a level of isolation for read operations.
++     *  - parameter flags:    Optional. set queryFlags for the current search
++     *  - parameter skip:     Optional. Skip the supplied number of records.
++     *  - parameter limit:    Optional. return no more than the supplied number of records.
++     *  - parameter batchSize:    Optional. Change number of automatically iterated documents.
++     *
++     *  - returns:	BSON document with distinct document.
++     */
++    
++    public func distinct(key: String, query: BSON? = nil, readConcern: BSON? = nil, flags: MongoQueryFlag = MongoQueryFlag.none, skip: Int = 0, limit: Int = 0, batchSize: Int = 0) -> BSON? {
++        let command = BSON()
++        defer { command.close() }
++        
++        command.append(key: "distinct", string: self.name())
++        command.append(key: "key", string: key)
++        if let query = query {
++            command.append(key: "query", document: query)
++        }
++        if let readConcern = readConcern {
++            command.append(key: "readConcern", document: readConcern)
++        }
++        let cursor = self.command(command: command, fields: nil, flags: flags, skip: skip, limit: limit, batchSize: batchSize)
++        
++        guard let result  = cursor?.next() else {
++            return nil
++        }
++        
++        return NoDestroyBSON(document: result)
++    }
++    
++    /**
++     *  Runs specified database command.
++     *
++     *  - parameter command:    Database command.
++     *  - parameter fields:   Optional. Specifies the fields to return in the documents that match the query filter. To return all fields in the matching documents, omit this parameter.
++     *  - parameter flags:    Optional. set queryFlags for the current search
++     *  - parameter skip:     Optional. Skip the supplied number of records.
++     *  - parameter limit:    Optional. return no more than the supplied number of records.
++     *  - parameter batchSize:    Optional. Change number of automatically iterated documents.
++     *
++     *  - returns:	A cursor to the command execution result documents.
++     */
++    
++    public func command(command: BSON, fields: BSON? = nil, flags: MongoQueryFlag = MongoQueryFlag.none, skip: Int = 0, limit: Int = 0, batchSize: Int = 0) -> MongoCursor? {
++        guard let ptr = self.ptr else {
++            return nil
++        }
++        guard let cdoc = command.doc else {
++            return nil
++        }
++        let cursor = mongoc_collection_command(ptr, flags.queryFlags, UInt32(skip), UInt32(limit), UInt32(batchSize), cdoc, fields?.doc, nil)
++        guard cursor != nil else {
++            return nil
++        }
++        return MongoCursor(rawPtr: cursor)
++    }
+ }
+-- 
+2.8.1
+
+From b35a50df22f2de77e3d4bbf8b520e8c967d484bb Mon Sep 17 00:00:00 2001
+From: DMITRY KULAKOV <navartis@gmail.com>
+Date: Fri, 11 Nov 2016 17:02:06 +0300
+Subject: [PATCH] testCollectionDistinct implementation
+
+---
+ Tests/MongoDBTests/MongoDBTests.swift | 65 ++++++++++++++++++++++++++++++++++-
+ 1 file changed, 64 insertions(+), 1 deletion(-)
+
+diff --git a/Tests/MongoDBTests/MongoDBTests.swift b/Tests/MongoDBTests/MongoDBTests.swift
+index dc440a3..677e933 100644
+--- a/Tests/MongoDBTests/MongoDBTests.swift
++++ b/Tests/MongoDBTests/MongoDBTests.swift
+@@ -360,6 +360,68 @@ class MongoDBTests: XCTestCase {
+         
+         XCTAssert(names == ["test"])
+     }
++    
++    func testCollectionDistinct() {
++        let collectionName = "testdistinctcollection"
++        let attributeName = "attribute"
++        
++        let client = try! MongoClient(uri: "mongodb://localhost")
++        let db = client.getDatabase(name: "test")
++        XCTAssert(db.name() == "test")
++        
++        guard let collection = db.getCollection(name: collectionName) else {
++            XCTAssert(false, "Collection was nil")
++            return
++        }
++        XCTAssert(collection.name() == collectionName)
++        
++        defer {
++            collection.close()
++            db.close()
++            client.close()
++        }
++        
++        do {
++            let testValues = ["a", "a", "a", "b", "b", "c"]
++            for value in testValues {
++                let bson = BSON()
++                defer {
++                    bson.close()
++                }
++                
++                XCTAssert(bson.append(key: attributeName, string: value))
++                
++                let result2 = collection.save(document: bson)
++                switch result2 {
++                case .success:
++                    XCTAssert(true)
++                default:
++                    XCTAssert(false, "Bad result \(result2)")
++                    return
++                }
++            }
++            
++            guard let _ = collection.distinct(key: attributeName) else {
++                XCTAssert(false, "Invalid distinct response")
++                return
++            }
++            
++/*
++ * Unfortunately PerfectLib unavailable
++ * imposible to validate distinct result
++             
++            let expectingValues = Set(testValues)
++            let distinctStr = distinct.asString
++            
++            guard let distinctDict = try! distinctStr.jsonDecode() as? [String:Any] else {
++                XCTAssert(false, "Invalid distinct response")
++                return
++            }
++            let distinctValues = Set(distinctDict["values"])
++            XCTAssertEqual(expectingValues, distinctValues)
++ */
++        }
++    }
+ }
+ 
+ extension MongoDBTests {
+@@ -376,7 +438,8 @@ extension MongoDBTests {
+             ("testClientGetDatabaseNames", testClientGetDatabaseNames),
+             ("testGetCollection", testGetCollection),
+             ("testDeleteDoc", testDeleteDoc),
+-            ("testCollectionFind", testCollectionFind)
++            ("testCollectionFind", testCollectionFind),
++            ("testCollectionDistinct", testCollectionDistinct)
+         ]
+     }
+ }
+-- 
+2.8.1
+

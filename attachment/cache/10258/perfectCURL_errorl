@@ -1,0 +1,700 @@
+
+Showing Recent Messages
+Check dependencies
+
+Write auxiliary files
+
+/bin/mkdir -p /Users/kdebicki/Library/Developer/Xcode/DerivedData/Perfect-CURL-Example-cxvrmkkoavjsuydupcqsymxamdtk/Build/Intermediates/Perfect-CURL-Example.build/Debug/PerfectCURL.build/Objects-normal/x86_64
+write-file /Users/kdebicki/Library/Developer/Xcode/DerivedData/Perfect-CURL-Example-cxvrmkkoavjsuydupcqsymxamdtk/Build/Intermediates/Perfect-CURL-Example.build/Debug/PerfectCURL.build/Objects-normal/x86_64/PerfectCURL-OutputFileMap.json
+write-file /Users/kdebicki/Library/Developer/Xcode/DerivedData/Perfect-CURL-Example-cxvrmkkoavjsuydupcqsymxamdtk/Build/Intermediates/Perfect-CURL-Example.build/Debug/PerfectCURL.build/module.modulemap
+write-file /Users/kdebicki/Library/Developer/Xcode/DerivedData/Perfect-CURL-Example-cxvrmkkoavjsuydupcqsymxamdtk/Build/Intermediates/Perfect-CURL-Example.build/Debug/PerfectCURL.build/swift-overrides.hmap
+write-file /Users/kdebicki/Library/Developer/Xcode/DerivedData/Perfect-CURL-Example-cxvrmkkoavjsuydupcqsymxamdtk/Build/Intermediates/Perfect-CURL-Example.build/Debug/PerfectCURL.build/Objects-normal/x86_64/PerfectCURL.LinkFileList
+
+Create product structure
+
+/bin/mkdir -p /Users/kdebicki/Library/Developer/Xcode/DerivedData/Perfect-CURL-Example-cxvrmkkoavjsuydupcqsymxamdtk/Build/Products/Debug/PerfectCURL.framework/Versions/A/Modules
+/bin/ln -sfh Versions/Current/Modules /Users/kdebicki/Library/Developer/Xcode/DerivedData/Perfect-CURL-Example-cxvrmkkoavjsuydupcqsymxamdtk/Build/Products/Debug/PerfectCURL.framework/Modules
+/bin/mkdir -p /Users/kdebicki/Library/Developer/Xcode/DerivedData/Perfect-CURL-Example-cxvrmkkoavjsuydupcqsymxamdtk/Build/Products/Debug/PerfectCURL.framework/Versions/A/Headers
+/bin/mkdir -p /Users/kdebicki/Library/Developer/Xcode/DerivedData/Perfect-CURL-Example-cxvrmkkoavjsuydupcqsymxamdtk/Build/Products/Debug/PerfectCURL.framework/Versions/A/Resources
+/bin/ln -sfh A /Users/kdebicki/Library/Developer/Xcode/DerivedData/Perfect-CURL-Example-cxvrmkkoavjsuydupcqsymxamdtk/Build/Products/Debug/PerfectCURL.framework/Versions/Current
+/bin/ln -sfh Versions/Current/Resources /Users/kdebicki/Library/Developer/Xcode/DerivedData/Perfect-CURL-Example-cxvrmkkoavjsuydupcqsymxamdtk/Build/Products/Debug/PerfectCURL.framework/Resources
+/bin/ln -sfh Versions/Current/Headers /Users/kdebicki/Library/Developer/Xcode/DerivedData/Perfect-CURL-Example-cxvrmkkoavjsuydupcqsymxamdtk/Build/Products/Debug/PerfectCURL.framework/Headers
+/bin/ln -sfh Versions/Current/PerfectCURL /Users/kdebicki/Library/Developer/Xcode/DerivedData/Perfect-CURL-Example-cxvrmkkoavjsuydupcqsymxamdtk/Build/Products/Debug/PerfectCURL.framework/PerfectCURL
+
+ProcessInfoPlistFile /Users/kdebicki/Library/Developer/Xcode/DerivedData/Perfect-CURL-Example-cxvrmkkoavjsuydupcqsymxamdtk/Build/Products/Debug/PerfectCURL.framework/Versions/A/Resources/Info.plist Perfect-CURL-Example.xcodeproj/PerfectCURL_Info.plist
+    cd /Users/kdebicki/devBackend/Perfect-CURL-Example-master
+    builtin-infoPlistUtility /Users/kdebicki/devBackend/Perfect-CURL-Example-master/Perfect-CURL-Example.xcodeproj/PerfectCURL_Info.plist -expandbuildsettings -platform macosx -o /Users/kdebicki/Library/Developer/Xcode/DerivedData/Perfect-CURL-Example-cxvrmkkoavjsuydupcqsymxamdtk/Build/Products/Debug/PerfectCURL.framework/Versions/A/Resources/Info.plist
+
+CompileSwiftSources normal x86_64 com.apple.xcode.tools.swift.compiler
+    cd /Users/kdebicki/devBackend/Perfect-CURL-Example-master
+    export DEVELOPER_DIR=/Applications/Xcode.app/Contents/Developer
+    export SDKROOT=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk
+    export TOOLCHAINS=com.apple.dt.toolchain.XcodeDefault
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc -incremental -module-name PerfectCURL -Onone -DXcode -I/usr/include -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -target x86_64-apple-macosx10.10 -g -module-cache-path /Users/kdebicki/Library/Developer/Xcode/DerivedData/ModuleCache -Xfrontend -serialize-debugging-options -enable-testing -I /Users/kdebicki/Library/Developer/Xcode/DerivedData/Perfect-CURL-Example-cxvrmkkoavjsuydupcqsymxamdtk/Build/Products/Debug -F /Users/kdebicki/Library/Developer/Xcode/DerivedData/Perfect-CURL-Example-cxvrmkkoavjsuydupcqsymxamdtk/Build/Products/Debug -F /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks -parse-as-library -c -j4 /Users/kdebicki/devBackend/Perfect-CURL-Example-master/Packages/PerfectCURL-2.0.0/Sources/cURL.swift -output-file-map /Users/kdebicki/Library/Developer/Xcode/DerivedData/Perfect-CURL-Example-cxvrmkkoavjsuydupcqsymxamdtk/Build/Intermediates/Perfect-CURL-Example.build/Debug/PerfectCURL.build/Objects-normal/x86_64/PerfectCURL-OutputFileMap.json -parseable-output -serialize-diagnostics -emit-dependencies -emit-module -emit-module-path /Users/kdebicki/Library/Developer/Xcode/DerivedData/Perfect-CURL-Example-cxvrmkkoavjsuydupcqsymxamdtk/Build/Intermediates/Perfect-CURL-Example.build/Debug/PerfectCURL.build/Objects-normal/x86_64/PerfectCURL.swiftmodule -Xcc -I/Users/kdebicki/Library/Developer/Xcode/DerivedData/Perfect-CURL-Example-cxvrmkkoavjsuydupcqsymxamdtk/Build/Intermediates/Perfect-CURL-Example.build/Debug/PerfectCURL.build/swift-overrides.hmap -Xcc -I/Users/kdebicki/Library/Developer/Xcode/DerivedData/Perfect-CURL-Example-cxvrmkkoavjsuydupcqsymxamdtk/Build/Products/Debug/include -Xcc -I/Users/kdebicki/devBackend/Perfect-CURL-Example-master/Packages/cURL-2.0.0 -Xcc -I/Users/kdebicki/Library/Developer/Xcode/DerivedData/Perfect-CURL-Example-cxvrmkkoavjsuydupcqsymxamdtk/Build/Intermediates/Perfect-CURL-Example.build/Debug/PerfectCURL.build/DerivedSources/x86_64 -Xcc -I/Users/kdebicki/Library/Developer/Xcode/DerivedData/Perfect-CURL-Example-cxvrmkkoavjsuydupcqsymxamdtk/Build/Intermediates/Perfect-CURL-Example.build/Debug/PerfectCURL.build/DerivedSources -emit-objc-header -emit-objc-header-path /Users/kdebicki/Library/Developer/Xcode/DerivedData/Perfect-CURL-Example-cxvrmkkoavjsuydupcqsymxamdtk/Build/Intermediates/Perfect-CURL-Example.build/Debug/PerfectCURL.build/Objects-normal/x86_64/PerfectCURL-Swift.h -Xcc -working-directory/Users/kdebicki/devBackend/Perfect-CURL-Example-master
+
+<unknown>:0: error: unable to execute command: Segmentation fault: 11
+<unknown>:0: error: compile command failed due to signal (use -v to see invocation)
+
+
+
+Activity Log Complete    28/12/2016, 13:51
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/module.modulemap:1:8: error: redefinition of module 'AppleTextureEncoder'
+module AppleTextureEncoder [system] [extern_c] {
+       ^
+/usr/include/module.modulemap:1:8: note: previously defined here
+module AppleTextureEncoder [system] [extern_c] {
+       ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/module.modulemap:7:8: error: redefinition of module 'Compression'
+module Compression [system] [extern_c] {
+       ^
+/usr/include/module.modulemap:7:8: note: previously defined here
+module Compression [system] [extern_c] {
+       ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/module.modulemap:13:8: error: redefinition of module 'Darwin'
+module Darwin [system] [extern_c] {
+       ^
+/usr/include/module.modulemap:13:8: note: previously defined here
+module Darwin [system] [extern_c] {
+       ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/module.modulemap:1621:8: error: redefinition of module 'asl'
+module asl [system] [extern_c] {
+       ^
+/usr/include/module.modulemap:1621:8: note: previously defined here
+module asl [system] [extern_c] {
+       ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/module.modulemap:1626:8: error: redefinition of module 'dnssd'
+module dnssd [system] [extern_c] {
+       ^
+/usr/include/module.modulemap:1626:8: note: previously defined here
+module dnssd [system] [extern_c] {
+       ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/module.modulemap:1631:8: error: redefinition of module 'launch'
+module launch {
+       ^
+/usr/include/module.modulemap:1631:8: note: previously defined here
+module launch {
+       ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/module.modulemap:1636:8: error: redefinition of module 'os'
+module os [system] [extern_c] {
+       ^
+/usr/include/module.modulemap:1636:8: note: previously defined here
+module os [system] [extern_c] {
+       ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/module.modulemap:1657:8: error: redefinition of module 'os_object'
+module os_object [system] [extern_c] {
+       ^
+/usr/include/module.modulemap:1657:8: note: previously defined here
+module os_object [system] [extern_c] {
+       ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/module.modulemap:1662:8: error: redefinition of module 'libkern'
+module libkern [system] [extern_c] {
+       ^
+/usr/include/module.modulemap:1662:8: note: previously defined here
+module libkern [system] [extern_c] {
+       ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/module.modulemap:1690:8: error: redefinition of module 'ldap'
+module ldap [system] [extern_c] {
+       ^
+/usr/include/module.modulemap:1690:8: note: previously defined here
+module ldap [system] [extern_c] {
+       ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/module.modulemap:1723:8: error: redefinition of module 'krb5'
+module krb5 [system] [extern_c] {
+       ^
+/usr/include/module.modulemap:1723:8: note: previously defined here
+module krb5 [system] [extern_c] {
+       ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/dispatch/module.modulemap:1:8: error: redefinition of module 'Dispatch'
+module Dispatch [system] [extern_c] {
+       ^
+/usr/include/dispatch/module.modulemap:1:8: note: previously defined here
+module Dispatch [system] [extern_c] {
+       ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/dispatch/module.modulemap:7:8: error: redefinition of module 'DispatchIntrospection'
+module DispatchIntrospection [system] [extern_c] {
+       ^
+/usr/include/dispatch/module.modulemap:7:8: note: previously defined here
+module DispatchIntrospection [system] [extern_c] {
+       ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/mach-o/module.map:1:8: error: redefinition of module 'MachO'
+module MachO [system] [extern_c] {
+       ^
+/usr/include/mach-o/module.map:1:8: note: previously defined here
+module MachO [system] [extern_c] {
+       ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/objc/module.map:1:8: error: redefinition of module 'ObjectiveC'
+module ObjectiveC [system] [extern_c] {
+       ^
+/usr/include/objc/module.map:1:8: note: previously defined here
+module ObjectiveC [system] [extern_c] {
+       ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/simd/module.modulemap:1:8: error: redefinition of module 'simd'
+module simd [system] {
+       ^
+/usr/include/simd/module.modulemap:1:8: note: previously defined here
+module simd [system] {
+       ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/xpc/module.modulemap:1:8: error: redefinition of module 'XPC'
+module XPC [system] [extern_c] {
+       ^
+/usr/include/xpc/module.modulemap:1:8: note: previously defined here
+module XPC [system] [extern_c] {
+       ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/module.modulemap:1:8: error: redefinition of module 'AppleTextureEncoder'
+module AppleTextureEncoder [system] [extern_c] {
+       ^
+/usr/include/module.modulemap:1:8: note: previously defined here
+module AppleTextureEncoder [system] [extern_c] {
+       ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/module.modulemap:7:8: error: redefinition of module 'Compression'
+module Compression [system] [extern_c] {
+       ^
+/usr/include/module.modulemap:7:8: note: previously defined here
+module Compression [system] [extern_c] {
+       ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/module.modulemap:13:8: error: redefinition of module 'Darwin'
+module Darwin [system] [extern_c] {
+       ^
+/usr/include/module.modulemap:13:8: note: previously defined here
+module Darwin [system] [extern_c] {
+       ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/module.modulemap:1621:8: error: redefinition of module 'asl'
+module asl [system] [extern_c] {
+       ^
+/usr/include/module.modulemap:1621:8: note: previously defined here
+module asl [system] [extern_c] {
+       ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/module.modulemap:1626:8: error: redefinition of module 'dnssd'
+module dnssd [system] [extern_c] {
+       ^
+/usr/include/module.modulemap:1626:8: note: previously defined here
+module dnssd [system] [extern_c] {
+       ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/module.modulemap:1631:8: error: redefinition of module 'launch'
+module launch {
+       ^
+/usr/include/module.modulemap:1631:8: note: previously defined here
+module launch {
+       ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/module.modulemap:1636:8: error: redefinition of module 'os'
+module os [system] [extern_c] {
+       ^
+/usr/include/module.modulemap:1636:8: note: previously defined here
+module os [system] [extern_c] {
+       ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/module.modulemap:1657:8: error: redefinition of module 'os_object'
+module os_object [system] [extern_c] {
+       ^
+/usr/include/module.modulemap:1657:8: note: previously defined here
+module os_object [system] [extern_c] {
+       ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/module.modulemap:1662:8: error: redefinition of module 'libkern'
+module libkern [system] [extern_c] {
+       ^
+/usr/include/module.modulemap:1662:8: note: previously defined here
+module libkern [system] [extern_c] {
+       ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/module.modulemap:1690:8: error: redefinition of module 'ldap'
+module ldap [system] [extern_c] {
+       ^
+/usr/include/module.modulemap:1690:8: note: previously defined here
+module ldap [system] [extern_c] {
+       ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/module.modulemap:1723:8: error: redefinition of module 'krb5'
+module krb5 [system] [extern_c] {
+       ^
+/usr/include/module.modulemap:1723:8: note: previously defined here
+module krb5 [system] [extern_c] {
+       ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/dispatch/module.modulemap:1:8: error: redefinition of module 'Dispatch'
+module Dispatch [system] [extern_c] {
+       ^
+/usr/include/dispatch/module.modulemap:1:8: note: previously defined here
+module Dispatch [system] [extern_c] {
+       ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/dispatch/module.modulemap:7:8: error: redefinition of module 'DispatchIntrospection'
+module DispatchIntrospection [system] [extern_c] {
+       ^
+/usr/include/dispatch/module.modulemap:7:8: note: previously defined here
+module DispatchIntrospection [system] [extern_c] {
+       ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/mach-o/module.map:1:8: error: redefinition of module 'MachO'
+module MachO [system] [extern_c] {
+       ^
+/usr/include/mach-o/module.map:1:8: note: previously defined here
+module MachO [system] [extern_c] {
+       ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/objc/module.map:1:8: error: redefinition of module 'ObjectiveC'
+module ObjectiveC [system] [extern_c] {
+       ^
+/usr/include/objc/module.map:1:8: note: previously defined here
+module ObjectiveC [system] [extern_c] {
+       ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/simd/module.modulemap:1:8: error: redefinition of module 'simd'
+module simd [system] {
+       ^
+/usr/include/simd/module.modulemap:1:8: note: previously defined here
+module simd [system] {
+       ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/xpc/module.modulemap:1:8: error: redefinition of module 'XPC'
+module XPC [system] [extern_c] {
+       ^
+/usr/include/xpc/module.modulemap:1:8: note: previously defined here
+module XPC [system] [extern_c] {
+       ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/module.modulemap:1:8: error: redefinition of module 'AppleTextureEncoder'
+module AppleTextureEncoder [system] [extern_c] {
+       ^
+/usr/include/module.modulemap:1:8: note: previously defined here
+module AppleTextureEncoder [system] [extern_c] {
+       ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/module.modulemap:7:8: error: redefinition of module 'Compression'
+module Compression [system] [extern_c] {
+       ^
+/usr/include/module.modulemap:7:8: note: previously defined here
+module Compression [system] [extern_c] {
+       ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/module.modulemap:13:8: error: redefinition of module 'Darwin'
+module Darwin [system] [extern_c] {
+       ^
+/usr/include/module.modulemap:13:8: note: previously defined here
+module Darwin [system] [extern_c] {
+       ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/module.modulemap:1621:8: error: redefinition of module 'asl'
+module asl [system] [extern_c] {
+       ^
+/usr/include/module.modulemap:1621:8: note: previously defined here
+module asl [system] [extern_c] {
+       ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/module.modulemap:1626:8: error: redefinition of module 'dnssd'
+module dnssd [system] [extern_c] {
+       ^
+/usr/include/module.modulemap:1626:8: note: previously defined here
+module dnssd [system] [extern_c] {
+       ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/module.modulemap:1631:8: error: redefinition of module 'launch'
+module launch {
+       ^
+/usr/include/module.modulemap:1631:8: note: previously defined here
+module launch {
+       ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/module.modulemap:1636:8: error: redefinition of module 'os'
+module os [system] [extern_c] {
+       ^
+/usr/include/module.modulemap:1636:8: note: previously defined here
+module os [system] [extern_c] {
+       ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/module.modulemap:1657:8: error: redefinition of module 'os_object'
+module os_object [system] [extern_c] {
+       ^
+/usr/include/module.modulemap:1657:8: note: previously defined here
+module os_object [system] [extern_c] {
+       ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/module.modulemap:1662:8: error: redefinition of module 'libkern'
+module libkern [system] [extern_c] {
+       ^
+/usr/include/module.modulemap:1662:8: note: previously defined here
+module libkern [system] [extern_c] {
+       ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/module.modulemap:1690:8: error: redefinition of module 'ldap'
+module ldap [system] [extern_c] {
+       ^
+/usr/include/module.modulemap:1690:8: note: previously defined here
+module ldap [system] [extern_c] {
+       ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/module.modulemap:1723:8: error: redefinition of module 'krb5'
+module krb5 [system] [extern_c] {
+       ^
+/usr/include/module.modulemap:1723:8: note: previously defined here
+module krb5 [system] [extern_c] {
+       ^
+<module-includes>:1:9: note: in file included from <module-includes>:1:
+#import "Headers/Foundation.h"
+        ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h:85:9: note: in file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h:85:
+#import <Foundation/NSURLCredential.h>
+        ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSURLCredential.h:9:9: error: could not build module 'Security'
+#import <Security/Security.h>
+        ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/module.modulemap:1:8: error: redefinition of module 'AppleTextureEncoder'
+module AppleTextureEncoder [system] [extern_c] {
+       ^
+/usr/include/module.modulemap:1:8: note: previously defined here
+module AppleTextureEncoder [system] [extern_c] {
+       ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/module.modulemap:7:8: error: redefinition of module 'Compression'
+module Compression [system] [extern_c] {
+       ^
+/usr/include/module.modulemap:7:8: note: previously defined here
+module Compression [system] [extern_c] {
+       ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/module.modulemap:13:8: error: redefinition of module 'Darwin'
+module Darwin [system] [extern_c] {
+       ^
+/usr/include/module.modulemap:13:8: note: previously defined here
+module Darwin [system] [extern_c] {
+       ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/module.modulemap:1621:8: error: redefinition of module 'asl'
+module asl [system] [extern_c] {
+       ^
+/usr/include/module.modulemap:1621:8: note: previously defined here
+module asl [system] [extern_c] {
+       ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/module.modulemap:1626:8: error: redefinition of module 'dnssd'
+module dnssd [system] [extern_c] {
+       ^
+/usr/include/module.modulemap:1626:8: note: previously defined here
+module dnssd [system] [extern_c] {
+       ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/module.modulemap:1631:8: error: redefinition of module 'launch'
+module launch {
+       ^
+/usr/include/module.modulemap:1631:8: note: previously defined here
+module launch {
+       ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/module.modulemap:1636:8: error: redefinition of module 'os'
+module os [system] [extern_c] {
+       ^
+/usr/include/module.modulemap:1636:8: note: previously defined here
+module os [system] [extern_c] {
+       ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/module.modulemap:1657:8: error: redefinition of module 'os_object'
+module os_object [system] [extern_c] {
+       ^
+/usr/include/module.modulemap:1657:8: note: previously defined here
+module os_object [system] [extern_c] {
+       ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/module.modulemap:1662:8: error: redefinition of module 'libkern'
+module libkern [system] [extern_c] {
+       ^
+/usr/include/module.modulemap:1662:8: note: previously defined here
+module libkern [system] [extern_c] {
+       ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/module.modulemap:1690:8: error: redefinition of module 'ldap'
+module ldap [system] [extern_c] {
+       ^
+/usr/include/module.modulemap:1690:8: note: previously defined here
+module ldap [system] [extern_c] {
+       ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/module.modulemap:1723:8: error: redefinition of module 'krb5'
+module krb5 [system] [extern_c] {
+       ^
+/usr/include/module.modulemap:1723:8: note: previously defined here
+module krb5 [system] [extern_c] {
+       ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/dispatch/module.modulemap:1:8: error: redefinition of module 'Dispatch'
+module Dispatch [system] [extern_c] {
+       ^
+/usr/include/dispatch/module.modulemap:1:8: note: previously defined here
+module Dispatch [system] [extern_c] {
+       ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/dispatch/module.modulemap:7:8: error: redefinition of module 'DispatchIntrospection'
+module DispatchIntrospection [system] [extern_c] {
+       ^
+/usr/include/dispatch/module.modulemap:7:8: note: previously defined here
+module DispatchIntrospection [system] [extern_c] {
+       ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/mach-o/module.map:1:8: error: redefinition of module 'MachO'
+module MachO [system] [extern_c] {
+       ^
+/usr/include/mach-o/module.map:1:8: note: previously defined here
+module MachO [system] [extern_c] {
+       ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/objc/module.map:1:8: error: redefinition of module 'ObjectiveC'
+module ObjectiveC [system] [extern_c] {
+       ^
+/usr/include/objc/module.map:1:8: note: previously defined here
+module ObjectiveC [system] [extern_c] {
+       ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/simd/module.modulemap:1:8: error: redefinition of module 'simd'
+module simd [system] {
+       ^
+/usr/include/simd/module.modulemap:1:8: note: previously defined here
+module simd [system] {
+       ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/xpc/module.modulemap:1:8: error: redefinition of module 'XPC'
+module XPC [system] [extern_c] {
+       ^
+/usr/include/xpc/module.modulemap:1:8: note: previously defined here
+module XPC [system] [extern_c] {
+       ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSURLError.h:14:9: note: while building module 'CoreServices' imported from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSURLError.h:14:
+#import <CoreServices/CoreServices.h>
+        ^
+<module-includes>:1:9: note: in file included from <module-includes>:1:
+#import "Headers/CoreServices.h"
+        ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks/CoreServices.framework/Headers/CoreServices.h:39:10: note: in file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks/CoreServices.framework/Headers/CoreServices.h:39:
+#include <LaunchServices/LaunchServices.h>
+         ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/LaunchServices.framework/Headers/LaunchServices.h:22:10: note: in file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/LaunchServices.framework/Headers/LaunchServices.h:22:
+#include <LaunchServices/IconsCore.h>
+         ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/LaunchServices.framework/Headers/IconsCore.h:23:10: note: in file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/LaunchServices.framework/Headers/IconsCore.h:23:
+#include <OSServices/OSServices.h>
+         ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/OSServices.framework/Headers/OSServices.h:27:10: note: in file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/OSServices.framework/Headers/OSServices.h:27:
+#include <OSServices/CSIdentity.h>
+         ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/OSServices.framework/Headers/CSIdentity.h:26:10: note: in file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/OSServices.framework/Headers/CSIdentity.h:26:
+#include <OSServices/CSIdentityBase.h>
+         ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/OSServices.framework/Headers/CSIdentityBase.h:23:10: error: could not build module 'Security'
+#include <Security/SecBase.h>
+         ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSAppleEventDescriptor.h:8:9: note: while building module 'ApplicationServices' imported from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSAppleEventDescriptor.h:8:
+#import <ApplicationServices/ApplicationServices.h>
+        ^
+<module-includes>:1:9: note: in file included from <module-includes>:1:
+#import "Headers/ApplicationServices.h"
+        ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.h:23:10: error: could not build module 'CoreServices'
+#include <CoreServices/CoreServices.h>
+         ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/module.modulemap:1:8: error: redefinition of module 'AppleTextureEncoder'
+module AppleTextureEncoder [system] [extern_c] {
+       ^
+/usr/include/module.modulemap:1:8: note: previously defined here
+module AppleTextureEncoder [system] [extern_c] {
+       ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/module.modulemap:7:8: error: redefinition of module 'Compression'
+module Compression [system] [extern_c] {
+       ^
+/usr/include/module.modulemap:7:8: note: previously defined here
+module Compression [system] [extern_c] {
+       ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/module.modulemap:13:8: error: redefinition of module 'Darwin'
+module Darwin [system] [extern_c] {
+       ^
+/usr/include/module.modulemap:13:8: note: previously defined here
+module Darwin [system] [extern_c] {
+       ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/module.modulemap:1621:8: error: redefinition of module 'asl'
+module asl [system] [extern_c] {
+       ^
+/usr/include/module.modulemap:1621:8: note: previously defined here
+module asl [system] [extern_c] {
+       ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/module.modulemap:1626:8: error: redefinition of module 'dnssd'
+module dnssd [system] [extern_c] {
+       ^
+/usr/include/module.modulemap:1626:8: note: previously defined here
+module dnssd [system] [extern_c] {
+       ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/module.modulemap:1631:8: error: redefinition of module 'launch'
+module launch {
+       ^
+/usr/include/module.modulemap:1631:8: note: previously defined here
+module launch {
+       ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/module.modulemap:1636:8: error: redefinition of module 'os'
+module os [system] [extern_c] {
+       ^
+/usr/include/module.modulemap:1636:8: note: previously defined here
+module os [system] [extern_c] {
+       ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/module.modulemap:1657:8: error: redefinition of module 'os_object'
+module os_object [system] [extern_c] {
+       ^
+/usr/include/module.modulemap:1657:8: note: previously defined here
+module os_object [system] [extern_c] {
+       ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/module.modulemap:1662:8: error: redefinition of module 'libkern'
+module libkern [system] [extern_c] {
+       ^
+/usr/include/module.modulemap:1662:8: note: previously defined here
+module libkern [system] [extern_c] {
+       ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/module.modulemap:1690:8: error: redefinition of module 'ldap'
+module ldap [system] [extern_c] {
+       ^
+/usr/include/module.modulemap:1690:8: note: previously defined here
+module ldap [system] [extern_c] {
+       ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/module.modulemap:1723:8: error: redefinition of module 'krb5'
+module krb5 [system] [extern_c] {
+       ^
+/usr/include/module.modulemap:1723:8: note: previously defined here
+module krb5 [system] [extern_c] {
+       ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/dispatch/module.modulemap:1:8: error: redefinition of module 'Dispatch'
+module Dispatch [system] [extern_c] {
+       ^
+/usr/include/dispatch/module.modulemap:1:8: note: previously defined here
+module Dispatch [system] [extern_c] {
+       ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/dispatch/module.modulemap:7:8: error: redefinition of module 'DispatchIntrospection'
+module DispatchIntrospection [system] [extern_c] {
+       ^
+/usr/include/dispatch/module.modulemap:7:8: note: previously defined here
+module DispatchIntrospection [system] [extern_c] {
+       ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/mach-o/module.map:1:8: error: redefinition of module 'MachO'
+module MachO [system] [extern_c] {
+       ^
+/usr/include/mach-o/module.map:1:8: note: previously defined here
+module MachO [system] [extern_c] {
+       ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/objc/module.map:1:8: error: redefinition of module 'ObjectiveC'
+module ObjectiveC [system] [extern_c] {
+       ^
+/usr/include/objc/module.map:1:8: note: previously defined here
+module ObjectiveC [system] [extern_c] {
+       ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/simd/module.modulemap:1:8: error: redefinition of module 'simd'
+module simd [system] {
+       ^
+/usr/include/simd/module.modulemap:1:8: note: previously defined here
+module simd [system] {
+       ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/xpc/module.modulemap:1:8: error: redefinition of module 'XPC'
+module XPC [system] [extern_c] {
+       ^
+/usr/include/xpc/module.modulemap:1:8: note: previously defined here
+module XPC [system] [extern_c] {
+       ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/module.modulemap:1:8: error: redefinition of module 'AppleTextureEncoder'
+module AppleTextureEncoder [system] [extern_c] {
+       ^
+/usr/include/module.modulemap:1:8: note: previously defined here
+module AppleTextureEncoder [system] [extern_c] {
+       ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/module.modulemap:7:8: error: redefinition of module 'Compression'
+module Compression [system] [extern_c] {
+       ^
+/usr/include/module.modulemap:7:8: note: previously defined here
+module Compression [system] [extern_c] {
+       ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/module.modulemap:13:8: error: redefinition of module 'Darwin'
+module Darwin [system] [extern_c] {
+       ^
+/usr/include/module.modulemap:13:8: note: previously defined here
+module Darwin [system] [extern_c] {
+       ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/module.modulemap:1621:8: error: redefinition of module 'asl'
+module asl [system] [extern_c] {
+       ^
+/usr/include/module.modulemap:1621:8: note: previously defined here
+module asl [system] [extern_c] {
+       ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/module.modulemap:1626:8: error: redefinition of module 'dnssd'
+module dnssd [system] [extern_c] {
+       ^
+/usr/include/module.modulemap:1626:8: note: previously defined here
+module dnssd [system] [extern_c] {
+       ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/module.modulemap:1631:8: error: redefinition of module 'launch'
+module launch {
+       ^
+/usr/include/module.modulemap:1631:8: note: previously defined here
+module launch {
+       ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/module.modulemap:1636:8: error: redefinition of module 'os'
+module os [system] [extern_c] {
+       ^
+/usr/include/module.modulemap:1636:8: note: previously defined here
+module os [system] [extern_c] {
+       ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/module.modulemap:1657:8: error: redefinition of module 'os_object'
+module os_object [system] [extern_c] {
+       ^
+/usr/include/module.modulemap:1657:8: note: previously defined here
+module os_object [system] [extern_c] {
+       ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/module.modulemap:1662:8: error: redefinition of module 'libkern'
+module libkern [system] [extern_c] {
+       ^
+/usr/include/module.modulemap:1662:8: note: previously defined here
+module libkern [system] [extern_c] {
+       ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/module.modulemap:1690:8: error: redefinition of module 'ldap'
+module ldap [system] [extern_c] {
+       ^
+/usr/include/module.modulemap:1690:8: note: previously defined here
+module ldap [system] [extern_c] {
+       ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/module.modulemap:1723:8: error: redefinition of module 'krb5'
+module krb5 [system] [extern_c] {
+       ^
+/usr/include/module.modulemap:1723:8: note: previously defined here
+module krb5 [system] [extern_c] {
+       ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/dispatch/module.modulemap:1:8: error: redefinition of module 'Dispatch'
+module Dispatch [system] [extern_c] {
+       ^
+/usr/include/dispatch/module.modulemap:1:8: note: previously defined here
+module Dispatch [system] [extern_c] {
+       ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/dispatch/module.modulemap:7:8: error: redefinition of module 'DispatchIntrospection'
+module DispatchIntrospection [system] [extern_c] {
+       ^
+/usr/include/dispatch/module.modulemap:7:8: note: previously defined here
+module DispatchIntrospection [system] [extern_c] {
+       ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/mach-o/module.map:1:8: error: redefinition of module 'MachO'
+module MachO [system] [extern_c] {
+       ^
+/usr/include/mach-o/module.map:1:8: note: previously defined here
+module MachO [system] [extern_c] {
+       ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/objc/module.map:1:8: error: redefinition of module 'ObjectiveC'
+module ObjectiveC [system] [extern_c] {
+       ^
+/usr/include/objc/module.map:1:8: note: previously defined here
+module ObjectiveC [system] [extern_c] {
+       ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/simd/module.modulemap:1:8: error: redefinition of module 'simd'
+module simd [system] {
+       ^
+/usr/include/simd/module.modulemap:1:8: note: previously defined here
+module simd [system] {
+       ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/xpc/module.modulemap:1:8: error: redefinition of module 'XPC'
+module XPC [system] [extern_c] {
+       ^
+/usr/include/xpc/module.modulemap:1:8: note: previously defined here
+module XPC [system] [extern_c] {
+       ^
+<unknown>:0: error: could not build Objective-C module 'Foundation'
+0  swift                    0x000000010e472b6d PrintStackTraceSignalHandler(void*) + 45
+1  swift                    0x000000010e4725b6 SignalHandler(int) + 470
+2  libsystem_platform.dylib 0x00007fffadf43bba _sigtramp + 26
+3  swift                    0x000000010c55dafe clang::SourceManager::getDecomposedSpellingLoc(clang::SourceLocation) const + 46
+4  swift                    0x000000010bf24dc6 clang::Preprocessor::MacroState::getModuleInfo(clang::Preprocessor&, clang::IdentifierInfo const*) const + 198
+5  swift                    0x000000010bf24aea clang::Preprocessor::getMacroDefinition(clang::IdentifierInfo const*) + 330
+6  swift                    0x000000010bf5e071 importMacro(swift::ClangImporter::Implementation&, swift::DeclContext*, swift::Identifier, clang::MacroInfo const*, clang::MacroInfo const*, clang::QualType*) + 2993
+7  swift                    0x000000010bf5d0f7 swift::ClangImporter::Implementation::importMacro(swift::Identifier, clang::MacroInfo*) + 423
+8  swift                    0x000000010bf09aaa swift::ClangImporter::Implementation::lookupValue(swift::SwiftLookupTable&, swift::DeclName, swift::VisibleDeclConsumer&) + 698
+9  swift                    0x000000010bf097b8 swift::ClangImporter::Implementation::lookupVisibleDecls(swift::SwiftLookupTable&, swift::VisibleDeclConsumer&) + 232
+10 swift                    0x000000010bf05e3f swift::ClangModuleUnit::lookupVisibleDecls(llvm::ArrayRef<std::__1::pair<swift::Identifier, swift::SourceLoc> >, swift::VisibleDeclConsumer&, swift::NLKind) const + 335
+11 swift                    0x000000010c28ec25 void lookupInModule<llvm::DenseMap<swift::Identifier, std::__1::pair<swift::namelookup::ResolutionKind, llvm::SmallSet<swift::CanType, 4u, (anonymous namespace)::SortCanType> >, llvm::DenseMapInfo<swift::Identifier>, llvm::detail::DenseMapPair<swift::Identifier, std::__1::pair<swift::namelookup::ResolutionKind, llvm::SmallSet<swift::CanType, 4u, (anonymous namespace)::SortCanType> > > >, swift::namelookup::lookupVisibleDeclsInModule(swift::ModuleDecl*, llvm::ArrayRef<std::__1::pair<swift::Identifier, swift::SourceLoc> >, llvm::SmallVectorImpl<swift::ValueDecl*>&, swift::NLKind, swift::namelookup::ResolutionKind, swift::LazyResolver*, swift::DeclContext const*, llvm::ArrayRef<std::__1::pair<llvm::ArrayRef<std::__1::pair<swift::Identifier, swift::SourceLoc> >, swift::ModuleDecl*> >)::$_1>(swift::ModuleDecl*, llvm::ArrayRef<std::__1::pair<swift::Identifier, swift::SourceLoc> >, llvm::SmallVectorImpl<swift::ValueDecl*>&, swift::namelookup::ResolutionKind, bool, swift::LazyResolver*, llvm::SmallDenseMap<std::__1::pair<llvm::ArrayRef<std::__1::pair<swift::Identifier, swift::SourceLoc> >, swift::ModuleDecl*>, llvm::TinyPtrVector<swift::ValueDecl*>, 32u, llvm::DenseMapInfo<std::__1::pair<llvm::ArrayRef<std::__1::pair<swift::Identifier, swift::SourceLoc> >, swift::ModuleDecl*> >, llvm::detail::DenseMapPair<std::__1::pair<llvm::ArrayRef<std::__1::pair<swift::Identifier, swift::SourceLoc> >, swift::ModuleDecl*>, llvm::TinyPtrVector<swift::ValueDecl*> > >&, swift::DeclContext const*, bool, llvm::ArrayRef<std::__1::pair<llvm::ArrayRef<std::__1::pair<swift::Identifier, swift::SourceLoc> >, swift::ModuleDecl*> >, swift::namelookup::lookupVisibleDeclsInModule(swift::ModuleDecl*, llvm::ArrayRef<std::__1::pair<swift::Identifier, swift::SourceLoc> >, llvm::SmallVectorImpl<swift::ValueDecl*>&, swift::NLKind, swift::namelookup::ResolutionKind, swift::LazyResolver*, swift::DeclContext const*, llvm::ArrayRef<std::__1::pair<llvm::ArrayRef<std::__1::pair<swift::Identifier, swift::SourceLoc> >, swift::ModuleDecl*> >)::$_1) + 325
+12 swift                    0x000000010c28f22b void lookupInModule<llvm::DenseMap<swift::Identifier, std::__1::pair<swift::namelookup::ResolutionKind, llvm::SmallSet<swift::CanType, 4u, (anonymous namespace)::SortCanType> >, llvm::DenseMapInfo<swift::Identifier>, llvm::detail::DenseMapPair<swift::Identifier, std::__1::pair<swift::namelookup::ResolutionKind, llvm::SmallSet<swift::CanType, 4u, (anonymous namespace)::SortCanType> > > >, swift::namelookup::lookupVisibleDeclsInModule(swift::ModuleDecl*, llvm::ArrayRef<std::__1::pair<swift::Identifier, swift::SourceLoc> >, llvm::SmallVectorImpl<swift::ValueDecl*>&, swift::NLKind, swift::namelookup::ResolutionKind, swift::LazyResolver*, swift::DeclContext const*, llvm::ArrayRef<std::__1::pair<llvm::ArrayRef<std::__1::pair<swift::Identifier, swift::SourceLoc> >, swift::ModuleDecl*> >)::$_1>(swift::ModuleDecl*, llvm::ArrayRef<std::__1::pair<swift::Identifier, swift::SourceLoc> >, llvm::SmallVectorImpl<swift::ValueDecl*>&, swift::namelookup::ResolutionKind, bool, swift::LazyResolver*, llvm::SmallDenseMap<std::__1::pair<llvm::ArrayRef<std::__1::pair<swift::Identifier, swift::SourceLoc> >, swift::ModuleDecl*>, llvm::TinyPtrVector<swift::ValueDecl*>, 32u, llvm::DenseMapInfo<std::__1::pair<llvm::ArrayRef<std::__1::pair<swift::Identifier, swift::SourceLoc> >, swift::ModuleDecl*> >, llvm::detail::DenseMapPair<std::__1::pair<llvm::ArrayRef<std::__1::pair<swift::Identifier, swift::SourceLoc> >, swift::ModuleDecl*>, llvm::TinyPtrVector<swift::ValueDecl*> > >&, swift::DeclContext const*, bool, llvm::ArrayRef<std::__1::pair<llvm::ArrayRef<std::__1::pair<swift::Identifier, swift::SourceLoc> >, swift::ModuleDecl*> >, swift::namelookup::lookupVisibleDeclsInModule(swift::ModuleDecl*, llvm::ArrayRef<std::__1::pair<swift::Identifier, swift::SourceLoc> >, llvm::SmallVectorImpl<swift::ValueDecl*>&, swift::NLKind, swift::namelookup::ResolutionKind, swift::LazyResolver*, swift::DeclContext const*, llvm::ArrayRef<std::__1::pair<llvm::ArrayRef<std::__1::pair<swift::Identifier, swift::SourceLoc> >, swift::ModuleDecl*> >)::$_1) + 1867
+13 swift                    0x000000010c28f22b void lookupInModule<llvm::DenseMap<swift::Identifier, std::__1::pair<swift::namelookup::ResolutionKind, llvm::SmallSet<swift::CanType, 4u, (anonymous namespace)::SortCanType> >, llvm::DenseMapInfo<swift::Identifier>, llvm::detail::DenseMapPair<swift::Identifier, std::__1::pair<swift::namelookup::ResolutionKind, llvm::SmallSet<swift::CanType, 4u, (anonymous namespace)::SortCanType> > > >, swift::namelookup::lookupVisibleDeclsInModule(swift::ModuleDecl*, llvm::ArrayRef<std::__1::pair<swift::Identifier, swift::SourceLoc> >, llvm::SmallVectorImpl<swift::ValueDecl*>&, swift::NLKind, swift::namelookup::ResolutionKind, swift::LazyResolver*, swift::DeclContext const*, llvm::ArrayRef<std::__1::pair<llvm::ArrayRef<std::__1::pair<swift::Identifier, swift::SourceLoc> >, swift::ModuleDecl*> >)::$_1>(swift::ModuleDecl*, llvm::ArrayRef<std::__1::pair<swift::Identifier, swift::SourceLoc> >, llvm::SmallVectorImpl<swift::ValueDecl*>&, swift::namelookup::ResolutionKind, bool, swift::LazyResolver*, llvm::SmallDenseMap<std::__1::pair<llvm::ArrayRef<std::__1::pair<swift::Identifier, swift::SourceLoc> >, swift::ModuleDecl*>, llvm::TinyPtrVector<swift::ValueDecl*>, 32u, llvm::DenseMapInfo<std::__1::pair<llvm::ArrayRef<std::__1::pair<swift::Identifier, swift::SourceLoc> >, swift::ModuleDecl*> >, llvm::detail::DenseMapPair<std::__1::pair<llvm::ArrayRef<std::__1::pair<swift::Identifier, swift::SourceLoc> >, swift::ModuleDecl*>, llvm::TinyPtrVector<swift::ValueDecl*> > >&, swift::DeclContext const*, bool, llvm::ArrayRef<std::__1::pair<llvm::ArrayRef<std::__1::pair<swift::Identifier, swift::SourceLoc> >, swift::ModuleDecl*> >, swift::namelookup::lookupVisibleDeclsInModule(swift::ModuleDecl*, llvm::ArrayRef<std::__1::pair<swift::Identifier, swift::SourceLoc> >, llvm::SmallVectorImpl<swift::ValueDecl*>&, swift::NLKind, swift::namelookup::ResolutionKind, swift::LazyResolver*, swift::DeclContext const*, llvm::ArrayRef<std::__1::pair<llvm::ArrayRef<std::__1::pair<swift::Identifier, swift::SourceLoc> >, swift::ModuleDecl*> >)::$_1) + 1867
+14 swift                    0x000000010c28f22b void lookupInModule<llvm::DenseMap<swift::Identifier, std::__1::pair<swift::namelookup::ResolutionKind, llvm::SmallSet<swift::CanType, 4u, (anonymous namespace)::SortCanType> >, llvm::DenseMapInfo<swift::Identifier>, llvm::detail::DenseMapPair<swift::Identifier, std::__1::pair<swift::namelookup::ResolutionKind, llvm::SmallSet<swift::CanType, 4u, (anonymous namespace)::SortCanType> > > >, swift::namelookup::lookupVisibleDeclsInModule(swift::ModuleDecl*, llvm::ArrayRef<std::__1::pair<swift::Identifier, swift::SourceLoc> >, llvm::SmallVectorImpl<swift::ValueDecl*>&, swift::NLKind, swift::namelookup::ResolutionKind, swift::LazyResolver*, swift::DeclContext const*, llvm::ArrayRef<std::__1::pair<llvm::ArrayRef<std::__1::pair<swift::Identifier, swift::SourceLoc> >, swift::ModuleDecl*> >)::$_1>(swift::ModuleDecl*, llvm::ArrayRef<std::__1::pair<swift::Identifier, swift::SourceLoc> >, llvm::SmallVectorImpl<swift::ValueDecl*>&, swift::namelookup::ResolutionKind, bool, swift::LazyResolver*, llvm::SmallDenseMap<std::__1::pair<llvm::ArrayRef<std::__1::pair<swift::Identifier, swift::SourceLoc> >, swift::ModuleDecl*>, llvm::TinyPtrVector<swift::ValueDecl*>, 32u, llvm::DenseMapInfo<std::__1::pair<llvm::ArrayRef<std::__1::pair<swift::Identifier, swift::SourceLoc> >, swift::ModuleDecl*> >, llvm::detail::DenseMapPair<std::__1::pair<llvm::ArrayRef<std::__1::pair<swift::Identifier, swift::SourceLoc> >, swift::ModuleDecl*>, llvm::TinyPtrVector<swift::ValueDecl*> > >&, swift::DeclContext const*, bool, llvm::ArrayRef<std::__1::pair<llvm::ArrayRef<std::__1::pair<swift::Identifier, swift::SourceLoc> >, swift::ModuleDecl*> >, swift::namelookup::lookupVisibleDeclsInModule(swift::ModuleDecl*, llvm::ArrayRef<std::__1::pair<swift::Identifier, swift::SourceLoc> >, llvm::SmallVectorImpl<swift::ValueDecl*>&, swift::NLKind, swift::namelookup::ResolutionKind, swift::LazyResolver*, swift::DeclContext const*, llvm::ArrayRef<std::__1::pair<llvm::ArrayRef<std::__1::pair<swift::Identifier, swift::SourceLoc> >, swift::ModuleDecl*> >)::$_1) + 1867
+15 swift                    0x000000010c274bd5 swift::lookupVisibleDecls(swift::VisibleDeclConsumer&, swift::DeclContext const*, swift::LazyResolver*, bool, swift::SourceLoc) + 4037
+16 swift                    0x000000010c13fe8b swift::TypeChecker::performTypoCorrection(swift::DeclContext*, swift::DeclRefKind, swift::Type, swift::DeclName, swift::SourceLoc, swift::OptionSet<swift::NameLookupFlags, unsigned int>, swift::LookupResult&, unsigned int) + 315
+17 swift                    0x000000010c0e39fa swift::TypeChecker::resolveDeclRefExpr(swift::UnresolvedDeclRefExpr*, swift::DeclContext*) + 1050
+18 swift                    0x000000010c0e76b4 (anonymous namespace)::PreCheckExpression::walkToExprPre(swift::Expr*) + 1268
+19 swift                    0x000000010c1e3b3f swift::ASTVisitor<(anonymous namespace)::Traversal, swift::Expr*, swift::Stmt*, bool, swift::Pattern*, bool, void>::visit(swift::Expr*) + 79
+20 swift                    0x000000010c1e8a56 (anonymous namespace)::Traversal::visitApplyExpr(swift::ApplyExpr*) + 86
+21 swift                    0x000000010c0e6b12 swift::TypeChecker::solveForExpression(swift::Expr*&, swift::DeclContext*, swift::Type, swift::FreeTypeVariableBinding, swift::ExprTypeCheckListener*, swift::constraints::ConstraintSystem&, llvm::SmallVectorImpl<swift::constraints::Solution>&, swift::OptionSet<swift::TypeCheckExprFlags, unsigned int>) + 290
+22 swift                    0x000000010c0e959f swift::TypeChecker::typeCheckExpression(swift::Expr*&, swift::DeclContext*, swift::TypeLoc, swift::ContextualTypePurpose, swift::OptionSet<swift::TypeCheckExprFlags, unsigned int>, swift::ExprTypeCheckListener*, swift::constraints::ConstraintSystem*) + 703
+23 swift                    0x000000010c16a5b8 swift::ASTVisitor<(anonymous namespace)::StmtChecker, void, swift::Stmt*, void, void, void, void>::visit(swift::Stmt*) + 488
+24 swift                    0x000000010c16aab5 swift::ASTVisitor<(anonymous namespace)::StmtChecker, void, swift::Stmt*, void, void, void, void>::visit(swift::Stmt*) + 1765
+25 swift                    0x000000010c16a516 swift::ASTVisitor<(anonymous namespace)::StmtChecker, void, swift::Stmt*, void, void, void, void>::visit(swift::Stmt*) + 326
+26 swift                    0x000000010c1695ad swift::TypeChecker::typeCheckFunctionBodyUntil(swift::FuncDecl*, swift::SourceLoc) + 365
+27 swift                    0x000000010c16dcfc swift::TypeChecker::typeCheckAbstractFunctionBody(swift::AbstractFunctionDecl*) + 188
+28 swift                    0x000000010c12264a swift::performTypeChecking(swift::SourceFile&, swift::TopLevelContext&, swift::OptionSet<swift::TypeCheckingFlags, unsigned int>, unsigned int, unsigned int) + 6714
+29 swift                    0x000000010bdd7aab swift::CompilerInstance::performSema() + 5643
+30 swift                    0x000000010b88400d performCompile(swift::CompilerInstance&, swift::CompilerInvocation&, llvm::ArrayRef<char const*>, int&, swift::FrontendObserver*) + 2765
+31 swift                    0x000000010b881265 swift::performFrontend(llvm::ArrayRef<char const*>, char const*, void*, swift::FrontendObserver*) + 17029
+32 swift                    0x000000010b83e82d main + 8685
+33 libdyld.dylib            0x00007fffadd36255 start + 1
+34 libdyld.dylib            0x0000000000000035 start + 1378655713
+Stack dump:
+0.	Program arguments: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swift -frontend -c -primary-file /Users/kdebicki/devBackend/Perfect-CURL-Example-master/Packages/PerfectCURL-2.0.0/Sources/cURL.swift -target x86_64-apple-macosx10.10 -enable-objc-interop -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -I /usr/include -I /Users/kdebicki/Library/Developer/Xcode/DerivedData/Perfect-CURL-Example-cxvrmkkoavjsuydupcqsymxamdtk/Build/Products/Debug -F /Users/kdebicki/Library/Developer/Xcode/DerivedData/Perfect-CURL-Example-cxvrmkkoavjsuydupcqsymxamdtk/Build/Products/Debug -F /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks -enable-testing -g -module-cache-path /Users/kdebicki/Library/Developer/Xcode/DerivedData/ModuleCache -D Xcode -serialize-debugging-options -Xcc -I/Users/kdebicki/Library/Developer/Xcode/DerivedData/Perfect-CURL-Example-cxvrmkkoavjsuydupcqsymxamdtk/Build/Intermediates/Perfect-CURL-Example.build/Debug/PerfectCURL.build/swift-overrides.hmap -Xcc -I/Users/kdebicki/Library/Developer/Xcode/DerivedData/Perfect-CURL-Example-cxvrmkkoavjsuydupcqsymxamdtk/Build/Products/Debug/include -Xcc -I/Users/kdebicki/devBackend/Perfect-CURL-Example-master/Packages/cURL-2.0.0 -Xcc -I/Users/kdebicki/Library/Developer/Xcode/DerivedData/Perfect-CURL-Example-cxvrmkkoavjsuydupcqsymxamdtk/Build/Intermediates/Perfect-CURL-Example.build/Debug/PerfectCURL.build/DerivedSources/x86_64 -Xcc -I/Users/kdebicki/Library/Developer/Xcode/DerivedData/Perfect-CURL-Example-cxvrmkkoavjsuydupcqsymxamdtk/Build/Intermediates/Perfect-CURL-Example.build/Debug/PerfectCURL.build/DerivedSources -Xcc -working-directory/Users/kdebicki/devBackend/Perfect-CURL-Example-master -emit-module-doc-path /Users/kdebicki/Library/Developer/Xcode/DerivedData/Perfect-CURL-Example-cxvrmkkoavjsuydupcqsymxamdtk/Build/Intermediates/Perfect-CURL-Example.build/Debug/PerfectCURL.build/Objects-normal/x86_64/cURL~partial.swiftdoc -Onone -parse-as-library -module-name PerfectCURL -emit-module-path /Users/kdebicki/Library/Developer/Xcode/DerivedData/Perfect-CURL-Example-cxvrmkkoavjsuydupcqsymxamdtk/Build/Intermediates/Perfect-CURL-Example.build/Debug/PerfectCURL.build/Objects-normal/x86_64/cURL~partial.swiftmodule -serialize-diagnostics-path /Users/kdebicki/Library/Developer/Xcode/DerivedData/Perfect-CURL-Example-cxvrmkkoavjsuydupcqsymxamdtk/Build/Intermediates/Perfect-CURL-Example.build/Debug/PerfectCURL.build/Objects-normal/x86_64/cURL.dia -emit-dependencies-path /Users/kdebicki/Library/Developer/Xcode/DerivedData/Perfect-CURL-Example-cxvrmkkoavjsuydupcqsymxamdtk/Build/Intermediates/Perfect-CURL-Example.build/Debug/PerfectCURL.build/Objects-normal/x86_64/cURL.d -emit-reference-dependencies-path /Users/kdebicki/Library/Developer/Xcode/DerivedData/Perfect-CURL-Example-cxvrmkkoavjsuydupcqsymxamdtk/Build/Intermediates/Perfect-CURL-Example.build/Debug/PerfectCURL.build/Objects-normal/x86_64/cURL.swiftdeps -o /Users/kdebicki/Library/Developer/Xcode/DerivedData/Perfect-CURL-Example-cxvrmkkoavjsuydupcqsymxamdtk/Build/Intermediates/Perfect-CURL-Example.build/Debug/PerfectCURL.build/Objects-normal/x86_64/cURL.o 
+1.	While type-checking 'performInner' at /Users/kdebicki/devBackend/Perfect-CURL-Example-master/Packages/PerfectCURL-2.0.0/Sources/cURL.swift:161:10
+2.	While type-checking expression at [/Users/kdebicki/devBackend/Perfect-CURL-Example-master/Packages/PerfectCURL-2.0.0/Sources/cURL.swift:172:4 - line:174:4] RangeText="Threading.dispatch {
+				self.performInner(accumulator: accumulator, closure: closure)
+			}"
