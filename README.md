@@ -39,8 +39,7 @@
     </a>
 </p>
 
-
-This is a list archived from Perfect JIRA (the issue report database).
+This is an archived list of the open issues which were on JIRA at the time we shut it down. If you have a new issue to report, please do so on the relevnt repository's GitHub issues tracker.
 
 ## Archived Issues
 
